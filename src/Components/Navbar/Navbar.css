@@ -1,0 +1,8 @@
+.navbar {
+  background: var(--primary-color);
+  color: var(--text-color);
+}
+
+select {
+  background: var(--primary-color);
+}

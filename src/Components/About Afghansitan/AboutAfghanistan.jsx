@@ -3,7 +3,7 @@ import "./AboutAfghanistan.css";
 export default function AboutAfghanistan() {
   return (
     <section className="flex flex-col justify-center items-center min-h-screen px-28 gap-8 about__section">
-      <h1 className="text-5xl">About Afghanistan</h1>
+      <h1 className="text-5xl">ABOUT AFGHANISTAN</h1>
       <p className="text-justify about__paragraph">
         Welcome to the captivating world of Afghanistan, a land steeped in
         history, brimming with cultural treasures, and adorned with breathtaking

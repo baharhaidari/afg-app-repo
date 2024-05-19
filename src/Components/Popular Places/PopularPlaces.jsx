@@ -39,7 +39,7 @@ export default function PopularPlaces() {
   return (
     <section className="places__section flex flex-col justify-center items-center min-h-screen px-28 py-12 gap-12">
       <h1 className="text-5xl places__section__title">
-        Explore Popular Places
+        EXPLORE POPULAR PLACES
       </h1>
 
       <div className="w-100">

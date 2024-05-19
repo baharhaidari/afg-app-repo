@@ -1,6 +1,7 @@
 .navbar {
   background: var(--primary-color);
   color: var(--text-color);
+  z-index: 99;
 }
 
 select {

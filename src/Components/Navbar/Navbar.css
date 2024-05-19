@@ -6,3 +6,7 @@
 select {
   background: var(--primary-color);
 }
+
+.navlinks__container li:hover {
+  cursor: pointer;
+}

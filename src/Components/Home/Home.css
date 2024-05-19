@@ -1,6 +1,17 @@
-section {
-  background-image: url("../../assets/band-e-amir-national.jpg");
+.home__section {
+  background-image: url("../../assets/afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg");
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   color: var(--text-color);
+}
+
+.home__title {
+  font-family: "Poetsen One", sans-serif;
+  /* font-family: "Caveat", cursive; */
+  font-weight: 700;
+}
+
+.home__paragraph {
+  font-size: 1.25rem;
 }

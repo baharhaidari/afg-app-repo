@@ -1,0 +1,9 @@
+.img__wrapper img {
+  object-fit: cover;
+  height: 240px;
+  width: 100%;
+}
+
+.places__section__title {
+  font-family: "Salsa", cursive;
+}

@@ -4,6 +4,10 @@
   z-index: 99;
 }
 
+.logo {
+  font-family: "Caveat";
+}
+
 select {
   background: var(--primary-color);
 }

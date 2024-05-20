@@ -37,12 +37,17 @@ export default function PopularPlaces() {
   ];
 
   return (
-    <section className="places__section flex flex-col justify-center items-center min-h-screen px-28 py-12 gap-12">
-      <h1 className="text-5xl places__section__title">
-        EXPLORE POPULAR PLACES
-      </h1>
+    <section className="places__section flex flex-col justify-center min-h-screen px-28 py-24 gap-12">
+      <div class="two alt-two flex justify-start items-center flex-col">
+        <h1 className="text-5xl places__section__title">
+          EXPLORE POPULAR PLACES
+          <span className="text-2xl">
+            Unveiling the Splendors of Iconic Destinations
+          </span>
+        </h1>
+      </div>
 
-      <div className="w-100">
+      <div className="test">
         <PlacesSearch />
       </div>
 

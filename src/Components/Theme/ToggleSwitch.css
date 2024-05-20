@@ -18,7 +18,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(110, 110, 133);
+  background-color: rgb(255, 255, 255);
   transition: 0.4s;
   border-radius: 34px;
 }
@@ -30,7 +30,7 @@
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: rgb(96, 96, 107);
   transition: 0.4s;
   border-radius: 50%;
   z-index: 2;
@@ -53,18 +53,18 @@ input:checked + .slider:before {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 16px;
+  font-size: 19px;
   color: white;
 }
 
 .slider .fa-moon {
-  right: -11px;
-  color: rgb(213, 204, 150);
+  right: 5px;
+  color: rgb(213, 186, 30);
 }
 
 .slider .fa-sun {
-  left: 4px;
-  color: rgb(213, 204, 150);
+  left: 5px;
+  color: rgb(213, 186, 30);
 }
 
 @media screen and (max-width: 768px) {

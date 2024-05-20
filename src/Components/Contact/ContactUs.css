@@ -6,9 +6,13 @@
   position: relative;
 }
 
-form {
+/* form {
   min-width: 65rem;
   max-width: 100rem;
+} */
+
+form {
+  width: 100%;
 }
 
 form .input-box {

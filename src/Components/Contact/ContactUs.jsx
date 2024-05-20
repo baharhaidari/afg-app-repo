@@ -2,8 +2,13 @@ import "./ContactUs.css";
 
 export default function ContactUs() {
   return (
-    <section className="flex flex-col justify-center items-center gap-10 min-h-screen contact__section">
-      <h1 className="contact__section__title text-5xl">CONTACT US</h1>
+    <section className="flex flex-col justify-center items-center gap-10 px-80 py-24 min-h-screen contact__section">
+      <div class="two alt-two">
+        <h1 className="text-5xl contact__section__title">
+          CONTACT US
+          <span className="text-2xl">Feel Free to Get in Touch</span>
+        </h1>
+      </div>
 
       <form action="" className="">
         <div className="input-box">

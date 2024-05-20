@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex justify-between px-14 py-6 items-center navbar sticky top-0 ">
+    <nav className="w-full flex justify-between px-14 py-4 items-center navbar sticky top-0 ">
       <div>
         <a href="" className="text-4xl font-medium logo">
           AfghanVisit

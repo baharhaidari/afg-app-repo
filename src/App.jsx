@@ -1,25 +1,25 @@
 import "./App.css";
-import AboutAfghanistan from "./Components/About Afghansitan/AboutAfghanistan";
-import ContactUs from "./Components/Contact/ContactUs";
-import Accordion from "./Components/FAQ/FAQ";
-import Footer from "./Components/Footer/Footer";
-import Home from "./Components/Home/Home";
-import Navbar from "./Components/Navbar/Navbar";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import RootLayout from "./Components/RootLayout";
+import MainLayout from "./Components/MainLayout";
 import PlaceDeatils from "./Components/Place Detail/PlaceDeatils";
-import PopularPlaces from "./Components/Popular Places/PopularPlaces";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      { index: true, element: <MainLayout /> },
+      { path: "place", element: <PlaceDeatils /> },
+    ],
+  },
+]);
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Home />
-      <AboutAfghanistan />
-      <PopularPlaces />
-      <Accordion />
-      <PlaceDeatils />
-      <ContactUs />
-      <Footer />
-    </>
+    <div className="App">
+      <RouterProvider router={router} />
+    </div>
   );
 }
 

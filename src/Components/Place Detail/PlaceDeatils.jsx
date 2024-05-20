@@ -58,7 +58,7 @@ export default function PlaceDeatils() {
   ];
 
   return (
-    <section className="flex flex-col justify-center items-center gap-10 min-h-screen  py-24 place__details__section">
+    <section className="flex flex-col justify-center items-center gap-10 min-h-screen place__details__section">
       <div className="place__detail__header w-full px-40 py-24 ">
         <div className="info__wrapper flex justify-between gap-24 py-6 px-10 text font-medium">
           <div>
@@ -94,17 +94,25 @@ export default function PlaceDeatils() {
           <h1 className="textxl">HERAT</h1>
           <a
             href=""
-            className="px-12 py-4 border-2 border-solid border-slate-300 rounded-sm text-2xl"
+            className="px-12 py-4 border-2 border-solid border-slate-300 rounded-sm text-2xl glass-btn"
           >
             DISCOVER
           </a>
         </div>
       </div>
 
-      <div className="cards__wrapper grid grid-cols-3 gap-16 px-28">
-        {POPULAR_PLACES_DEATILS.map((place, index) => {
-          return <Cards img={img} title={place.place} desc={place.desc} />;
-        })}
+      <div className="px-28 py-10 flex justify-center items-center flex-col">
+        <div class="two alt-two">
+          <h1 className="text-5xl contact__section__title">
+            HERAT POPULAR PLACES
+            <span className="text-2xl">Explore the places</span>
+          </h1>
+        </div>
+        <div className="cards__wrapper grid grid-cols-3 gap-16 py-20">
+          {POPULAR_PLACES_DEATILS.map((place, index) => {
+            return <Cards img={img} title={place.place} desc={place.desc} />;
+          })}
+        </div>
       </div>
     </section>
   );

@@ -2,7 +2,10 @@ import "./AboutAfghanistan.css";
 
 export default function AboutAfghanistan() {
   return (
-    <section className="flex flex-col justify-center items-center min-h-screen px-28 py-24 gap-14 about__section">
+    <section
+      className="flex flex-col justify-center items-center min-h-screen px-28 py-24 gap-14 about__section"
+      id="about"
+    >
       <div class="two alt-two">
         <h1 className="text-5xl">
           ABOUT AFGHANISTAN

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./Cards.css";
 
 export default function Cards(props) {
@@ -9,9 +10,11 @@ export default function Cards(props) {
       <div className="p-3">
         <h2 className="text-2xl font-semibold">{props.title}</h2>
         <p className="my-3 text-slate-600">{props.desc}</p>
-        <a href="#more" className="text-sky-500 text-1xl tracking-wider">
-          See More <i class="fa-solid fa-arrow-right"></i>
-        </a>
+        <NavLink to="/place">
+          <span className="text-sky-500 text-1xl tracking-wider">
+            See More <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </NavLink>
       </div>
     </div>
   );

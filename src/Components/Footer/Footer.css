@@ -1,0 +1,18 @@
+footer div ul li {
+  font-size: 1.1rem;
+}
+
+li {
+  line-height: 2;
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}

@@ -1,10 +1,9 @@
 .info__wrapper {
   background-color: #dcdeea;
-  /* color: var(--text-color); */
   color: #000;
 }
 
-.place__details__section {
+.place__detail__header {
   background-image: url("../../assets/afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg");
   background-repeat: no-repeat;
   background-size: cover;

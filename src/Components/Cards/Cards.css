@@ -1,0 +1,18 @@
+.img__wrapper img {
+  object-fit: cover;
+  height: 240px;
+  width: 100%;
+}
+
+.cards__wrapper .img__wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.cards__wrapper .img__wrapper img {
+  transition: transform 0.3s ease;
+}
+
+.cards__wrapper .img__wrapper:hover img {
+  transform: scale(1.05);
+}

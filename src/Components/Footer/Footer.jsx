@@ -7,7 +7,9 @@ export default function Footer() {
         <div className="flex">
           <div className="flex-1 p-10">
             <ul>
-              <li className="text-3xl mb-3 cursor-pointer">Logo</li>
+              <li className="text-3xl mb-3 cursor-pointer logo">
+                AfghanWander
+              </li>
               <li>
                 <p className="">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -42,7 +44,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <p>CopyRight 2024 | All Rights Reserved!</p>
+        <p className="text-2xl">CopyRight 2024 | All Rights Reserved!</p>
       </footer>
     </section>
   );

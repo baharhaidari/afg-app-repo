@@ -14,7 +14,9 @@ export default function Home() {
         uncover the hidden gems that make Afghanistan a truly captivating and
         unforgettable experience.
       </p>
-      <button>EXPLORE NOW</button>
+      <button className="px-10 py-3 border-2 border-solid border-slate-300 rounded-sm text-2xl glass-btn">
+        EXPLORE NOW
+      </button>
     </section>
   );
 }

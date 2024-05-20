@@ -5,7 +5,8 @@
 }
 
 .logo {
-  font-family: "Caveat";
+  /* font-family: "Caveat"; */
+  font-family: "Salsa", sans-serif;
 }
 
 select {

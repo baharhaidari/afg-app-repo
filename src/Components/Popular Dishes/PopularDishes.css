@@ -1,0 +1,25 @@
+.dishes__section__title h1 {
+  font-family: "Salsa", cursive;
+}
+
+.flex div .food__img {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.flex div .food__title {
+  background: #ffffff;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  color: var(--primary-color);
+}
+
+.flex .relative:hover .food__img {
+  transform: scale(1.05);
+}
+
+.flex .relative:hover .food__title {
+  opacity: 1;
+}

@@ -3,7 +3,7 @@ import "./Cards.css";
 
 export default function Cards(props) {
   return (
-    <div className="border-none shadow-2xl ">
+    <div className="border-none shadow-2xl">
       <div className="img__wrapper">
         <img src={props.img} alt="popular places" />
       </div>

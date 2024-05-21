@@ -48,7 +48,7 @@ const Accordion = () => {
       <div class="two alt-two flex justify-start items-center flex-col">
         <h1 className="text-5xl places__section__title">
           FREQUENTLY ASKED QUESTIONS
-          <span className="text-2xl">Find answers to common inquiries</span>
+          <span className="text-2xl">Find Answers to Common Inquiries</span>
         </h1>
       </div>
 

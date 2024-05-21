@@ -6,7 +6,7 @@ export default function Home() {
       className="min-h-screen flex justify-center items-center flex-col px-28 gap-8 home__section"
       id="home"
     >
-      <h1 className="text-8xl home__title">Time to Explore Afghanistan</h1>
+      <h1 className="text-7xl home__title">Time to Explore Afghanistan</h1>
       <p className="text-justify px-32 home__paragraph font-medium">
         Immerse yourself in the rich cultural heritage and breathtaking
         landscapes of Afghanistan, a land where ancient history and natural

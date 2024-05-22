@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./Navbar.css";
 import ThemeToggle from "../Theme/ToggleSwitch";
 import { useTranslation } from "react-i18next";
+import LanguageSelector from "../Language Selector/LanguageSelector";
 // import LanguageSelector from "../Language Selector/LanguageSelector";
 
 export default function Navbar() {
@@ -67,7 +68,7 @@ export default function Navbar() {
             onClick={() => handleLinkClick("home")}
             className={activeLink === "home" ? "active" : ""}
           >
-            {t("Home")}
+            {t("NAVBAR.home")}
           </a>
         </li>
 
@@ -77,7 +78,7 @@ export default function Navbar() {
             onClick={() => handleLinkClick("about")}
             className={activeLink === "about" ? "active" : ""}
           >
-            About
+            {t("NAVBAR.about")}
           </a>
         </li>
 
@@ -87,7 +88,7 @@ export default function Navbar() {
             onClick={() => handleLinkClick("places")}
             className={activeLink === "places" ? "active" : ""}
           >
-            Places
+            {t("NAVBAR.places")}
           </a>
         </li>
 
@@ -97,7 +98,7 @@ export default function Navbar() {
             onClick={() => handleLinkClick("dishes")}
             className={activeLink === "dishes" ? "active" : ""}
           >
-            Dishes
+            {t("NAVBAR.dishes")}
           </a>
         </li>
 
@@ -107,7 +108,7 @@ export default function Navbar() {
             onClick={() => handleLinkClick("nationalities")}
             className={activeLink === "nationalities" ? "active" : ""}
           >
-            Nationalities
+            {t("NAVBAR.nations")}
           </a>
         </li>
 
@@ -117,7 +118,7 @@ export default function Navbar() {
             onClick={() => handleLinkClick("faq")}
             className={activeLink === "faq" ? "active" : ""}
           >
-            FAQs
+            {t("NAVBAR.faqs")}
           </a>
         </li>
 
@@ -127,7 +128,7 @@ export default function Navbar() {
             onClick={() => handleLinkClick("contact")}
             className={activeLink === "contact" ? "active" : ""}
           >
-            Contact
+            {t("NAVBAR.contact")}
           </a>
         </li>
       </ul>
@@ -136,6 +137,8 @@ export default function Navbar() {
         <p className="text-xl">
           <ThemeToggle />
         </p>
+
+        <LanguageSelector />
       </div>
     </nav>
   );

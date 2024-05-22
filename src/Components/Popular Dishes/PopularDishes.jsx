@@ -6,12 +6,12 @@ import qaboli from "../../assets/غذاهای-مشهور-و-مزه-دار-افغ
 import ashak from "../../assets/maxresdefault.jpg";
 import manto from "../../assets/غذاهای-مشهور-و-مزه-دار-افغانستان-را-بشن-100039-1.jpg";
 import boolani from "../../assets/غذاهای-مشهور-و-مزه-دار-افغانستان-را-بشن-100033.jpg";
-// import qolorT from "../../assets/";
-// import qolorS from "../../assets/";
 
-// import img2 from "../../assets/maxresdefault.jpg";
+import { useTranslation } from "react-i18next";
 
 export default function PopularDishes() {
+  const { t } = useTranslation();
+
   const FOODS = [
     {
       name: "Kichiri",
@@ -71,10 +71,8 @@ export default function PopularDishes() {
       >
         <div className="two alt-two dishes__section__title">
           <h1 className="text-5xl">
-            POPULAR DISHES
-            <span className="text-2xl">
-              Unveiling the Popularity of Afghan Cuisine
-            </span>
+            {t("DISHES.title")}
+            <span className="text-2xl">{t("DISHES.tagline")}</span>
           </h1>
         </div>
 

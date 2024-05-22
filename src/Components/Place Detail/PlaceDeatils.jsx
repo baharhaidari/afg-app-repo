@@ -63,28 +63,29 @@ export default function PlaceDeatils() {
         <div className="info__wrapper flex justify-between gap-24 py-6 px-10 text font-medium">
           <div>
             <span className="text-slate-500">
-              <i class="fa-solid fa-earth-americas"></i> Area
+              <i className="fa-solid fa-earth-americas"></i> Area
             </span>
+
             <p>Afghanistan</p>
           </div>
 
           <div>
             <span className="text-slate-500">
-              <i class="fa-solid fa-user"></i> Population
+              <i className="fa-solid fa-user"></i> Population
             </span>
             <p>4 million</p>
           </div>
 
           <div>
             <span className="text-slate-500">
-              <i class="fa-solid fa-map-pin"></i> Downtown
+              <i className="fa-solid fa-map-pin"></i> Downtown
             </span>
             <p>Herat</p>
           </div>
 
           <div>
             <span className="text-slate-500">
-              <i class="fa-solid fa-globe"></i> Accent
+              <i className="fa-solid fa-globe"></i> Accent
             </span>
             <p>Persian</p>
           </div>
@@ -102,7 +103,7 @@ export default function PlaceDeatils() {
       </div>
 
       <div className="px-28 py-10 flex justify-center items-center flex-col">
-        <div class="two alt-two">
+        <div className="two alt-two">
           <h1 className="text-5xl contact__section__title">
             HERAT POPULAR PLACES
             <span className="text-2xl">Explore the places</span>

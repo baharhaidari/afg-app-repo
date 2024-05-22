@@ -3,6 +3,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from "./Components/RootLayout";
 import MainLayout from "./Components/MainLayout";
 import PlaceDeatils from "./Components/Place Detail/PlaceDeatils";
+import { I18nextProvider } from "react-i18next";
+import i18next from "i18next";
 
 const router = createBrowserRouter([
   {
@@ -18,7 +20,9 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="App">
-      <RouterProvider router={router} />
+      <I18nextProvider i18n={i18next}>
+        <RouterProvider router={router} />
+      </I18nextProvider>
     </div>
   );
 }

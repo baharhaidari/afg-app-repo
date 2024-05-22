@@ -69,7 +69,7 @@ export default function PopularDishes() {
         className="flex flex-col justify-center items-center min-h-screen px-28 py-24 gap-24"
         id="dishes"
       >
-        <div class="two alt-two dishes__section__title">
+        <div className="two alt-two dishes__section__title">
           <h1 className="text-5xl">
             POPULAR DISHES
             <span className="text-2xl">
@@ -78,7 +78,7 @@ export default function PopularDishes() {
           </h1>
         </div>
 
-        <div class="flex justify-center items-center gap-8 flex-wrap">
+        <div className="flex justify-center items-center gap-8 flex-wrap">
           {FOODS.map((food, index) => {
             return (
               <div key={index} className="relative shadow-2xl bg-slate-200 ">

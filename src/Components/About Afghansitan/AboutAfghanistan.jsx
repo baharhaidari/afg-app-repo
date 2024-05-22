@@ -6,7 +6,7 @@ export default function AboutAfghanistan() {
       className="flex flex-col justify-center items-center min-h-screen px-28 py-24 gap-14 about__section"
       id="about"
     >
-      <div class="two alt-two">
+      <div className="two alt-two">
         <h1 className="text-5xl">
           ABOUT AFGHANISTAN
           <span className="text-2xl">
@@ -15,7 +15,7 @@ export default function AboutAfghanistan() {
         </h1>
       </div>
 
-      <p className="text-justify about__paragraph">
+      <div className="text-justify about__paragraph">
         <p className="mb-3">
           Welcome to the captivating world of Afghanistan, a land steeped in
           history, brimming with cultural treasures, and adorned with
@@ -58,7 +58,7 @@ export default function AboutAfghanistan() {
           unforgettable experience that will stay with you long after your
           virtual exploration ends.
         </p>
-      </p>
+      </div>
     </section>
   );
 }

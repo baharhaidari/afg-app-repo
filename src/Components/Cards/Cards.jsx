@@ -12,7 +12,7 @@ export default function Cards(props) {
         <p className="my-3 cards__desc">{props.desc}</p>
         <NavLink to="/place">
           <span className="text-sky-500 text-1xl tracking-wider">
-            See More <i class="fa-solid fa-arrow-right"></i>
+            See More <i className="fa-solid fa-arrow-right"></i>
           </span>
         </NavLink>
       </div>

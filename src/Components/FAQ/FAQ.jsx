@@ -45,7 +45,7 @@ const Accordion = () => {
       className="flex flex-col justify-center min-h-screen px-28 py-24 gap-16"
       id="faq"
     >
-      <div class="two alt-two flex justify-start items-center flex-col">
+      <div className="two alt-two flex justify-start items-center flex-col">
         <h1 className="text-5xl places__section__title">
           FREQUENTLY ASKED QUESTIONS
           <span className="text-2xl">Find Answers to Common Inquiries</span>

@@ -6,7 +6,7 @@ export default function ContactUs() {
       className="flex flex-col justify-center items-center gap-10 px-72 py-24 min-h-screen contact__section"
       id="contact"
     >
-      <div class="two alt-two">
+      <div className="two alt-two">
         <h1 className="text-5xl contact__section__title">
           CONTACT US
           <span className="text-2xl">Feel Free to Get in Touch</span>

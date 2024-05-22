@@ -55,7 +55,7 @@ export default function Nationalities() {
   return (
     <>
       <section className="min-h-screen px-28 py-24 gap-36" id="nationalities">
-        <div class="two alt-two dishes__section__title flex flex-col justify-center items-center ">
+        <div className="two alt-two dishes__section__title flex flex-col justify-center items-center ">
           <h1 className="text-5xl">
             AFGHANISTAN NATIONALITIES
             <span className="text-2xl">
@@ -73,7 +73,7 @@ export default function Nationalities() {
           >
             {AFGHANSITAN_NATIONALITY.map((nation, index) => {
               return (
-                <SwiperSlide>
+                <SwiperSlide key={index}>
                   <div className="py-10 px-7 rounded-md slide__box shadow-xl">
                     <h1 className="text-4xl name mb-5">{nation.name}</h1>
                     <p className="nation__desc">{nation.desc}</p>

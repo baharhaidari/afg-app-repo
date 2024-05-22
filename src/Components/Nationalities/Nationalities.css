@@ -36,3 +36,7 @@
 .population {
   font-size: 1.3rem;
 }
+
+.slide__box {
+  background-color: var(--card-faq-bg);
+}

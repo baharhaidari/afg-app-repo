@@ -9,7 +9,7 @@ export default function Cards(props) {
       </div>
       <div className="p-3">
         <h2 className="text-2xl font-semibold">{props.title}</h2>
-        <p className="my-3 text-slate-600">{props.desc}</p>
+        <p className="my-3 cards__desc">{props.desc}</p>
         <NavLink to="/place">
           <span className="text-sky-500 text-1xl tracking-wider">
             See More <i class="fa-solid fa-arrow-right"></i>

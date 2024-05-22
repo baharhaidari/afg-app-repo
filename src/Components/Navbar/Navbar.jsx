@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
-import ThemeSwitch from "../Theme/ToggleSwitch";
-import LanguageSelector from "./Language Selector/LanguageSelector";
 import "./Navbar.css";
 import ThemeToggle from "../Theme/ToggleSwitch";
+import { useTranslation } from "react-i18next";
+// import LanguageSelector from "../Language Selector/LanguageSelector";
 
 export default function Navbar() {
   const [activeLink, setActiveLink] = useState("home");
+  const { t } = useTranslation();
 
   // scrolling to the specific sections while clicking on nav libks
   const handleLinkClick = (linkName) => {
@@ -66,7 +67,7 @@ export default function Navbar() {
             onClick={() => handleLinkClick("home")}
             className={activeLink === "home" ? "active" : ""}
           >
-            Home
+            {t("Home")}
           </a>
         </li>
 
@@ -133,16 +134,8 @@ export default function Navbar() {
 
       <div className="flex gap-2 text-center items-center justify-center">
         <p className="text-xl">
-          {/* <ThemeSwitch /> */}
-          {/* <i class="fa-solid fa-sun"></i> */}
           <ThemeToggle />
         </p>
-
-        <LanguageSelector />
-        {/* <select name="" id="" className="text-xl">
-          <option value="">English</option>
-          <option value="">Persian</option>
-        </select> */}
       </div>
     </nav>
   );

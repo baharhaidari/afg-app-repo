@@ -74,7 +74,7 @@ export default function Nationalities() {
             {AFGHANSITAN_NATIONALITY.map((nation, index) => {
               return (
                 <SwiperSlide>
-                  <div className="py-10 px-7 bg-slate-200 rounded-md slide__box shadow-2xl">
+                  <div className="py-10 px-7 rounded-md slide__box shadow-xl">
                     <h1 className="text-4xl name mb-5">{nation.name}</h1>
                     <p className="nation__desc">{nation.desc}</p>
                     <p className="font-semibold population">

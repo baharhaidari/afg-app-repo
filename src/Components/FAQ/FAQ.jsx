@@ -42,7 +42,7 @@ const Accordion = () => {
 
   return (
     <section
-      className="flex flex-col justify-center  min-h-screen px-28 py-24 gap-16"
+      className="flex flex-col justify-center min-h-screen px-28 py-24 gap-16"
       id="faq"
     >
       <div class="two alt-two flex justify-start items-center flex-col">

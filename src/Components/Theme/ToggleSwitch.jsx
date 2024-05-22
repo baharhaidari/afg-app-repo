@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import "./ThemeToggle.css";
 
 export default function ThemeToggle() {
   const [theme, setTheme] = useState("light");
@@ -8,15 +7,20 @@ export default function ThemeToggle() {
     const storedTheme = localStorage.getItem("theme");
     if (storedTheme) {
       setTheme(storedTheme);
-      document.documentElement.setAttribute("data-theme", storedTheme);
+      updateTheme(storedTheme);
     }
   }, []);
 
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
-    document.documentElement.setAttribute("data-theme", newTheme);
+    updateTheme(newTheme);
     localStorage.setItem("theme", newTheme);
+  };
+
+  const updateTheme = (selectedTheme) => {
+    const body = document.querySelector("body");
+    body.setAttribute("data-theme", selectedTheme);
   };
 
   return (

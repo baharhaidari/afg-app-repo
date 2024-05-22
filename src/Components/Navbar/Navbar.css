@@ -1,6 +1,6 @@
 .navbar {
   background: var(--primary-color);
-  color: var(--text-color);
+  color: var(--hero-section-colors);
   z-index: 99;
 }
 

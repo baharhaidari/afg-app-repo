@@ -1,12 +1,10 @@
 :root {
-  --border-color: #cccccc;
-  --background-color: #f1f1f1;
   --transition: all 0.2s ease;
 }
 
 .accordion .accordion-item {
-  background-color: var(--background-color);
-  border: 1px solid var(--border-color);
+  background-color: var(--card-faq-bg);
+  border: 1px solid var(--card-faq-bg);
   border-radius: 5px;
   font-size: 1.2rem;
 }

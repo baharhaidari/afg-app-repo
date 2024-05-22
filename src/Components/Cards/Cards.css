@@ -22,3 +22,7 @@
 .cards__wrapper .img__wrapper:hover img {
   transform: scale(1.05);
 }
+
+.cards__desc {
+  color: var(--card-desc-color);
+}

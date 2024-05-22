@@ -19,11 +19,26 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  /* font-family: "Jost", sans-serif; */
-  /* font-family: "Poppins", sans-serif; */
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] {
+  --primary-color: #03aed2;
+  --text-color: rgb(255, 255, 255);
+  --bg-color: #191d23;
+  --hero-section-colors: #fff;
+  --tagline-color: rgba(237, 224, 224, 0.521);
+  --card-desc-color: rgb(190, 198, 207);
+  --card-faq-bg: rgb(17, 19, 22);
 }
 
 :root {
   --primary-color: #03aed2;
-  --text-color: #fff;
+  --text-color: rgb(0, 0, 0);
+  --bg-color: #fff;
+  --hero-section-colors: #fff;
+  --tagline-color: rgba(0, 0, 0, 0.4);
+  --card-desc-color: rgb(71 85 105);
+  --card-faq-bg: rgb(226 232 240);
 }

@@ -1,24 +1,31 @@
-import React from "react";
-import { useTheme } from "./ThemeContext";
-import "./ToggleSwitch.css";
+import React, { useState, useEffect } from "react";
+// import "./ThemeToggle.css";
 
-const ThemeSwitch = () => {
-  // const { theme, toggleTheme } = useTheme();
+export default function ThemeToggle() {
+  const [theme, setTheme] = useState("light");
+
+  useEffect(() => {
+    const storedTheme = localStorage.getItem("theme");
+    if (storedTheme) {
+      setTheme(storedTheme);
+      document.documentElement.setAttribute("data-theme", storedTheme);
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    document.documentElement.setAttribute("data-theme", newTheme);
+    localStorage.setItem("theme", newTheme);
+  };
 
   return (
-    <label className="switch">
-      <input
-        type="checkbox"
-        // checked={theme === "dark"}
-        // onChange={toggleTheme}
-      />
-
-      <span className="slider round">
-        <i class="fa-solid fa-sun"></i>
-        <i class="fa-solid fa-moon"></i>
-      </span>
-    </label>
+    <button onClick={toggleTheme} className="theme-btn">
+      {theme === "light" ? (
+        <i className="bx bxs-sun"></i>
+      ) : (
+        <i className="bx bxs-moon"></i>
+      )}
+    </button>
   );
-};
-
-export default ThemeSwitch;
+}

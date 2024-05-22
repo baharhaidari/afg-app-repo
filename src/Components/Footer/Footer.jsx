@@ -23,7 +23,7 @@ export default function Footer() {
           <div className="flex-1 p-10">
             <ul>
               <li>
-                <a href="" className="text-2xl">
+                <a href="" className="text-2xl font-semibold">
                   Quick Links
                 </a>
               </li>
@@ -35,7 +35,7 @@ export default function Footer() {
 
           <div className="flex-1 p-10">
             <ul>
-              <li className="text-2xl">Follow on Social Media</li>
+              <li className="text-2xl font-semibold">Follow on Social Media</li>
               <li className="cursor-pointer">Instagram</li>
               <li className="cursor-pointer">Linkedin</li>
               <li className="cursor-pointer">Tweeter</li>
@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <p className="text-2xl">CopyRight 2024 | All Rights Reserved!</p>
+        <p className="text-2xl">© 2024 | All Rights Reserved!</p>
       </footer>
     </section>
   );

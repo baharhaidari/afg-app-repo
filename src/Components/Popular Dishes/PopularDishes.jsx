@@ -65,7 +65,10 @@ export default function PopularDishes() {
   ];
   return (
     <>
-      <section className="flex flex-col justify-center items-center min-h-screen px-28 py-24 gap-24 ">
+      <section
+        className="flex flex-col justify-center items-center min-h-screen px-28 py-24 gap-24"
+        id="dishes"
+      >
         <div class="two alt-two dishes__section__title">
           <h1 className="text-5xl">
             POPULAR DISHES

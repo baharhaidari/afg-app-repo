@@ -1,0 +1,38 @@
+.slide__box .name {
+  font-family: "Poetsen One", sans-serif;
+  color: var(--primary-color);
+  letter-spacing: 1px;
+}
+
+.slide__box .name::after {
+  content: "";
+  width: 60px;
+  display: block;
+  border-bottom: 3px solid var(--primary-color);
+  margin-top: 8px;
+}
+
+.swiper-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet-active {
+  background-color: var(--primary-color);
+}
+
+.swiper-pagination-bullet {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
+.swiper-pagination {
+  position: relative;
+  padding: 50px 0 0 0;
+}
+
+.nation__desc {
+  font-size: 1.2rem;
+  height: 230px;
+}
+
+.population {
+  font-size: 1.3rem;
+}

@@ -1,5 +1,5 @@
 .home__section {
-  background-image: url("../../assets/band-e-amir-national.jpg");
+  background-image: url("../../assets/band.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -8,7 +8,6 @@
 
 .home__title {
   font-family: "Poetsen One", sans-serif;
-  /* font-family: "Caveat", cursive; */
   font-weight: 700;
 }
 

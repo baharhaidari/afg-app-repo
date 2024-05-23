@@ -3,10 +3,9 @@ import "./Navbar.css";
 import ThemeToggle from "../Theme/ToggleSwitch";
 import { useTranslation } from "react-i18next";
 import LanguageSelector from "../Language Selector/LanguageSelector";
-// import LanguageSelector from "../Language Selector/LanguageSelector";
 
 export default function Navbar() {
-  const [activeLink, setActiveLink] = useState("home");
+  const [activeLink, setActiveLink] = useState();
   const { t } = useTranslation();
 
   // scrolling to the specific sections while clicking on nav libks

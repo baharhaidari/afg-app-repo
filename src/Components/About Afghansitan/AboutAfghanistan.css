@@ -53,8 +53,18 @@ h1 span {
 }
 
 .map__world {
-  width: 35%;
+  width: 30%;
   animation: rotate 4s infinite linear;
+}
+
+.tab {
+  cursor: pointer;
+  border-bottom: 4px solid transparent;
+  transition: border 0.3s ease-in-out;
+}
+
+.activeTab {
+  border-bottom: 4px solid var(--primary-color);
 }
 
 @keyframes rotate {

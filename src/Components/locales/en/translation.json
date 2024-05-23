@@ -9,6 +9,11 @@
     "contact": "Contact"
   },
 
+  "LANGUAGE_INPUT": {
+    "english": "English",
+    "persian": "فارسی"
+  },
+
   "HOME": {
     "title": "Time to Explore Afghanistan",
     "desc": "Immerse yourself in the rich cultural heritage and breathtakinglandscapes of Afghanistan, a land where ancient history and naturalbeauty converge. Discover the bustling bazaars of Kabul, the serenegardens of Herat, and the majestic Buddha niches of Bamiyan, eachoffering a unique glimpse into the country's storied past and vibrantpresent. Visit our site to explore these popular destinations anduncover the hidden gems that make Afghanistan a truly captivating andunforgettable experience."
@@ -19,8 +24,7 @@
     "tagline": "Discover the Hidden Treasures of Afghanistan",
     "desc1": "Welcome to the captivating world of Afghanistan, a land steeped in history, brimming with cultural treasures, and adorned with breathtaking landscapes that will leave you in awe. Embark on a journey through time as you explore ancient cities, where the echoes of past civilizations still resonate in the air. Marvel at thearchitectural wonders that proudly stand as testaments to thecountry's glorious heritage.",
     "desc2": "Immerse yourself in the vibrant tapestry of Afghan culture, wherediverse ethnic groups weave together a vibrant mosaic of traditions,art, and music. Discover the rhythms of the rubab, lose yourself inthe mesmerizing beauty of traditional dances, and be enchanted by the soul-stirring poetry that flows through the veins of this nation. Prepare to be spellbound by the natural wonders that dot the Afghan landscape. From towering peaks clad in snow to lush green valleys carpeted with wildflowers, each scene is a masterpiece painted by nature herself. Lose yourself in the majesty of the Hindu Kush Mountains, traverse the mystical deserts that whisper tales of ancientcaravans, and be mesmerized by the crystal-clear lakes that mirror theheavens above.",
-    "desc3": "But Afghanistan is more than just its history and natural splendors; it is a land of resilient people who have faced adversity with unwavering courage. Witness their unwavering spirit as they embark on a journey of rebuilding, healing, and striving for a better tomorrow. Experience the warmth of Afghan hospitality, where strangers are welcomed as family, and stories are shared over cups of fragrant tea. As you navigate through this website, we invite you to uncover the hidden gems, immerse yourself in the untold narratives, and embrace the extraordinary beauty that is Afghanistan.",
-    "desc4": "Let the magic of this land captivate your senses, ignite your curiosity, and leave an indelible mark on your heart. Welcome to Afghanistan, where history, culture, and nature converge to create an unforgettable experience that will stay with you long after your virtual exploration ends."
+    "desc3": "But Afghanistan is more than just its history and natural splendors; it is a land of resilient people who have faced adversity with unwavering courage. Witness their unwavering spirit as they embark on a journey of rebuilding, healing, and striving for a better tomorrow. Experience the warmth of Afghan hospitality, where strangers are welcomed as family, and stories are shared over cups of fragrant tea. As you navigate through this website, we invite you to uncover the hidden gems, immerse yourself in the untold narratives, and embrace the extraordinary beauty that is Afghanistan."
   },
 
   "PLACES": {
@@ -30,6 +34,7 @@
       {
         "title": "Herat",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
+        "img": "pangshir.jpg",
         "details": {
           "title": "Herat",
           "Info": "test"
@@ -38,6 +43,7 @@
       {
         "title": "Bamian",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
+        "img": "band.jpg",
         "details": {
           "title": "Bamian",
           "Info": "test"
@@ -46,6 +52,7 @@
       {
         "title": "Pangshir",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
+        "img": "afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg",
         "details": {
           "title": "Pangshir",
           "Info": "test"
@@ -54,6 +61,7 @@
       {
         "title": "Paqman",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
+        "img": "95860002_2221576591330917_319843641847709696_n.jpg",
         "details": {
           "title": "Paqman",
           "Info": "test"
@@ -62,6 +70,7 @@
       {
         "title": "Mazar-e-sharif",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
+        "img": "pangshir.jpg",
         "details": {
           "title": "Mazar-e-sharif",
           "Info": "test"
@@ -71,6 +80,7 @@
       {
         "title": "Pangshir",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
+        "img": "band.jpg",
         "details": {
           "title": "Pangshir",
           "Info": "test"
@@ -79,6 +89,7 @@
       {
         "title": "Paqman",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
+        "img": "afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg",
         "details": {
           "title": "Paqman",
           "Info": "test"
@@ -87,6 +98,7 @@
       {
         "title": "Mazar-e-sharif",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
+        "img": "95860002_2221576591330917_319843641847709696_n.jpg",
         "details": {
           "title": "Mazar-e-sharif",
           "Info": "test"
@@ -181,5 +193,38 @@
         "desc": "Traveling to Afghanistan requires careful planning and consideration for safety. Due to ongoing security concerns, it is essential to stay informed about the current situation and follow travel advisories from your home country. It is recommended to travel with a reputable tour operator or a trusted local guide who is familiar with the region. Register with your embassy or consulate upon arrival and share your travel itinerary with someone you trust. Respect local customs and traditions, and avoid political gatherings or demonstrations. Keep a low profile, be vigilant in public places, and follow the guidance of local authorities and security personnel."
       }
     ]
+  },
+
+  "CONTACT": {
+    "title": "CONTACT US",
+    "tagline": "Feel Free to Get in Touch",
+    "PLACEHOLDERS": {
+      "name": "Your First Name",
+      "fName": "Your Last Name",
+      "email": "Your Email Address",
+      "subject": "Your Email Subject",
+      "message": "Your Message..."
+    },
+    "submitBtn": "Send Message"
+  },
+
+  "FOOTER": {
+    "desc1": "  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, aliquam harum totam voluptas consequuntur doloribus deleniti adipisci quis eos voluptates dolorem illo sit.",
+    "FIRST_LINKS": {
+      "title": "Quick Links",
+      "link1": "Home",
+      "link2": "About Afghanistan",
+      "link3": "Popular Places"
+    },
+
+    "SECOND_LINKS": {
+      "title": "Follow on Social Media",
+      "link1": "Instagram",
+      "link2": "Linkedin",
+      "link3": "Tweeter",
+      "link4": "GitHub"
+    },
+
+    "copyright": "© 2024 | All Rights Reserved!"
   }
 }

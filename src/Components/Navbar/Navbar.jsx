@@ -48,9 +48,9 @@ export default function Navbar() {
     };
   }, []);
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
+  // const toggleMenu = () => {
+  //   setMenuOpen(!menuOpen);
+  // };
 
   return (
     <nav className="w-full flex justify-between px-14 py-4 items-center navbar sticky top-0 ">
@@ -132,10 +132,8 @@ export default function Navbar() {
         </li>
       </ul>
 
-      <div className="flex gap-2 text-center items-center justify-center">
-        <p className="text-xl">
-          <ThemeToggle />
-        </p>
+      <div className="flex gap-9 text-center items-center justify-center">
+        <ThemeToggle />
 
         <LanguageSelector />
       </div>

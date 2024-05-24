@@ -3,8 +3,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from "./Components/RootLayout";
 import MainLayout from "./Components/MainLayout";
 import PlaceDeatils from "./Components/Place Detail/PlaceDeatils";
-import { I18nextProvider } from "react-i18next";
+import { I18nextProvider, useTranslation } from "react-i18next";
 import i18next from "i18next";
+import { useEffect } from "react";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,14 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    const htmlElement = document.documentElement;
+    htmlElement.lang = i18n.language;
+    htmlElement.dir = i18n.language === "es" ? "rtl" : "ltr";
+  }, [i18n.language]);
+
   return (
     <div className="App">
       <I18nextProvider i18n={i18next}>

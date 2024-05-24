@@ -36,7 +36,7 @@ export default function Nationalities() {
             {nationalities.map((nation, index) => {
               return (
                 <SwiperSlide key={index}>
-                  <div className="py-10 px-7 rounded-md slide__box shadow-xl">
+                  <div className="py-10 px-7 rounded-md slide__box shadow-xl hover:shadow-2xl ">
                     <h1 className="text-4xl name mb-5">{nation.name}</h1>
                     <p className="nation__desc">{nation.desc}</p>
                     <p className="font-semibold population">

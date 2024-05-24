@@ -39,4 +39,10 @@
 
 .slide__box {
   background-color: var(--card-faq-bg);
+  transition: all 0.3s ease;
+  border: 2px solid var(--card-faq-bg);
+}
+
+.slide__box:hover {
+  border: 2px solid var(--primary-color);
 }

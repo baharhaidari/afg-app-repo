@@ -31,7 +31,7 @@ const Accordion = () => {
               <div
                 className={`accordion-item ${
                   openItem === index ? "open" : ""
-                } py-3 px-6`}
+                } py-3 px-6 shadow-sm hover:shadow-md`}
                 key={index}
               >
                 <div

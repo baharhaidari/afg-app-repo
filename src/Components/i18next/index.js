@@ -4,6 +4,8 @@
 // import translationsInEng from "../locales/en/translation.json";
 // import translationsInSpanish from "../locales/ps/translation.json";
 
+// const storedLanguage = localStorage.getItem("lang");
+
 // const resources = {
 //   en: {
 //     translation: translationsInEng,
@@ -15,7 +17,7 @@
 
 // i18n.use(initReactI18next).init({
 //   resources,
-//   lng: "en",
+//   lng: storedLanguage || "en", // Use storedLanguage if available, otherwise fallback to "en"
 //   fallbackLng: "en",
 //   interpolation: {
 //     escapeValue: false,
@@ -43,7 +45,7 @@ const resources = {
 
 i18n.use(initReactI18next).init({
   resources,
-  lng: storedLanguage || "en", // Use storedLanguage if available, otherwise fallback to "en"
+  lng: storedLanguage || "en",
   fallbackLng: "en",
   interpolation: {
     escapeValue: false,

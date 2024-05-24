@@ -25,7 +25,7 @@ body {
 
 [data-theme="dark"] {
   --primary-color: #03aed2;
-  --text-color: rgb(255, 255, 255);
+  --text-color: rgb(213, 213, 227);
   --bg-color: #191d23;
   --hero-section-colors: #fff;
   --tagline-color: rgba(237, 224, 224, 0.521);

@@ -24,7 +24,7 @@ export default function ThemeToggle() {
   };
 
   return (
-    <button onClick={toggleTheme} className="theme-btn">
+    <button onClick={toggleTheme} className="theme-btn text-2xl">
       {theme === "light" ? (
         <i className="bx bxs-sun"></i>
       ) : (

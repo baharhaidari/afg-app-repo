@@ -34,7 +34,7 @@
       {
         "title": "Herat",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "pangshir.jpg",
+        "img": "/src/assets/pangshir.jpg",
         "details": {
           "title": "Herat",
           "Info": "test"
@@ -43,7 +43,7 @@
       {
         "title": "Bamian",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "band.jpg",
+        "img": "/src/assets/band.jpg",
         "details": {
           "title": "Bamian",
           "Info": "test"
@@ -52,7 +52,7 @@
       {
         "title": "Pangshir",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg",
+        "img": "/src/assets/afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg",
         "details": {
           "title": "Pangshir",
           "Info": "test"
@@ -61,7 +61,7 @@
       {
         "title": "Paqman",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "95860002_2221576591330917_319843641847709696_n.jpg",
+        "img": "/src/assets/95860002_2221576591330917_319843641847709696_n.jpg",
         "details": {
           "title": "Paqman",
           "Info": "test"
@@ -70,7 +70,7 @@
       {
         "title": "Mazar-e-sharif",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "pangshir.jpg",
+        "img": "/src/assets/pangshir.jpg",
         "details": {
           "title": "Mazar-e-sharif",
           "Info": "test"
@@ -80,7 +80,7 @@
       {
         "title": "Pangshir",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "band.jpg",
+        "img": "/src/assets/band.jpg",
         "details": {
           "title": "Pangshir",
           "Info": "test"
@@ -89,7 +89,7 @@
       {
         "title": "Paqman",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg",
+        "img": "/src/assets/afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg",
         "details": {
           "title": "Paqman",
           "Info": "test"
@@ -98,7 +98,7 @@
       {
         "title": "Mazar-e-sharif",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "95860002_2221576591330917_319843641847709696_n.jpg",
+        "img": "/src/assets/95860002_2221576591330917_319843641847709696_n.jpg",
         "details": {
           "title": "Mazar-e-sharif",
           "Info": "test"

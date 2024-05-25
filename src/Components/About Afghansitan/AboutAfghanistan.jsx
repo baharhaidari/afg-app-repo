@@ -61,14 +61,14 @@ export default function AboutAfghanistan() {
           </li>
         </ul>
 
-        <div className="px-20">
+        <div className="px-20 flex justify-center items-center gap-20 mb-10">
           {activeTab === "map" && (
-            <div className="flex justify-center items-center gap-20 mb-10">
+            <div className="flex gap-20 ">
               <div>
                 <h2 className="text-4xl font-semibold mb-8 heading">
                   Aghanistan Map
                 </h2>
-                <p className="about__paragraph">
+                <p className="about__paragraph ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Numquam ea magni quaerat? Unde iure beatae maiores earum vel,
                   ratione excepturi expedita velit tempora quisquam, blanditiis
@@ -84,7 +84,7 @@ export default function AboutAfghanistan() {
             </div>
           )}
           {activeTab === "world" && (
-            <div className="flex justify-center items-center gap-20">
+            <div className="flex gap-20">
               <div>
                 <h2 className="text-4xl font-semibold mb-8 heading">
                   Location on the World
@@ -108,8 +108,9 @@ export default function AboutAfghanistan() {
               />
             </div>
           )}
+
           {activeTab === "flag" && (
-            <div className="flex justify-center items-center gap-20">
+            <div className="flex gap-20">
               <div>
                 <h2 className="text-4xl font-semibold mb-8 heading">
                   Afghanistan Flag

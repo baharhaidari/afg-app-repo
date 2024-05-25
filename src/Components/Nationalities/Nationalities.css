@@ -30,7 +30,7 @@
 
 .nation__desc {
   font-size: 1.2rem;
-  height: 230px;
+  min-height: 230px;
 }
 
 .population {

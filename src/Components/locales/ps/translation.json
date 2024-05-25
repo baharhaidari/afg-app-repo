@@ -35,43 +35,43 @@
       {
         "title": "هرات",
         "desc": "بگذارید جادوی این سرزمین حواس شما را مجذوب کند، کنجکاوی شما را شعله ور کند و اثری پاک نشدنی بر قلب شما بگذارد. به افغانستان خوش آمدید، جایی که تاریخ، فرهنگ و طبیعت برای ایجاد یک تجربه فراموش نشدنی که مدت‌ها پس از پایان یافتن اکتشاف مجازی‌تان با شما خواهد ماند.",
-        "img": "pangshir.jpg"
+        "img": "/src/assets/pangshir.jpg"
       },
       {
         "title": "Bamian",
         "desc": "بگذارید جادوی این سرزمین حواس شما را مجذوب کند، کنجکاوی شما را شعله ور کند و اثری پاک نشدنی بر قلب شما بگذارد. به افغانستان خوش آمدید، جایی که تاریخ، فرهنگ و طبیعت برای ایجاد یک تجربه فراموش نشدنی که مدت‌ها پس از پایان یافتن اکتشاف مجازی‌تان با شما خواهد ماند.",
-        "img": "band.jpg"
+        "img": "/src/assets/band.jpg"
       },
       {
         "title": "Pangshir",
         "desc": "بگذارید جادوی این سرزمین حواس شما را مجذوب کند، کنجکاوی شما را شعله ور کند و اثری پاک نشدنی بر قلب شما بگذارد. به افغانستان خوش آمدید، جایی که تاریخ، فرهنگ و طبیعت برای ایجاد یک تجربه فراموش نشدنی که مدت‌ها پس ماند.",
-        "img": "afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg"
+        "img": "/src/assets/afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg"
       },
       {
         "title": "Paqman",
         "desc": "بگذارید جادوی این سرزمین حواس شما را مجذوب کند، کنجکاوی شما را شعله ور کند و اثری پاک نشدنی بر قلب شما بگذارد. به افغانستان خوش آمدید، جایی که تاریخ، فرهنگ و طبیعت برای ایجاد یک تجربه فراموش نشدنی که مدت‌ها پس از پایان یافتن اکتشاف مجازی‌تان با شما خواهد ماند.",
-        "img": "95860002_2221576591330917_319843641847709696_n.jpg"
+        "img": "/src/assets/95860002_2221576591330917_319843641847709696_n.jpg"
       },
       {
         "title": "Mazar-e-sharif",
         "desc": "بگذارید جادوی این سرزمین حواس شما را مجذوب کند، کنجکاوی شما را شعله ور کند و اثری پاک نشدنی بر قلب شما بگذارد. به افغانستان خوش آمدید، جایی که تاریخ، فرهنگ و طبیعت برای ایجاد یک تجربه فراموش نشدنی که مدت‌ها پس از پایان یافتن اکتشاف مجازی‌تان با شما خواهد ماند.",
-        "img": "band.jpg"
+        "img": "/src/assets/band.jpg"
       },
 
       {
         "title": "Pangshir",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "pangshir.jpg"
+        "img": "/src/assets/pangshir.jpg"
       },
       {
         "title": "Paqman",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "95860002_2221576591330917_319843641847709696_n.jpg"
+        "img": "/src/assets/95860002_2221576591330917_319843641847709696_n.jpg"
       },
       {
         "title": "Mazar-e-sharif",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "95860002_2221576591330917_319843641847709696_n.jpg"
+        "img": "/src/assets/95860002_2221576591330917_319843641847709696_n.jpg"
       }
     ]
   },

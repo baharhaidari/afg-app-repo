@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <section>
-      <footer className="flex items-center flex-col px-28 py-8">
+      <footer className="flex items-center justify-center flex-col px-28 py-8">
         <div className="flex">
           <div className="flex-1 p-10">
             <ul>
@@ -21,19 +21,17 @@ export default function Footer() {
 
           <div className="flex-1 p-10">
             <ul>
-              <li>
-                <a href="" className="text-2xl font-semibold">
-                  {t("FOOTER.FIRST_LINKS.title")}
-                </a>
+              <li className="text-2xl font-semibold">
+                {t("FOOTER.FIRST_LINKS.title")}
+              </li>
+              <li className="cursor-pointer mt-1">
+                <a href="#home">{t("FOOTER.FIRST_LINKS.link1")}</a>
               </li>
               <li className="cursor-pointer">
-                {t("FOOTER.FIRST_LINKS.link1")}
+                <a href="#about">{t("FOOTER.FIRST_LINKS.link2")}</a>
               </li>
               <li className="cursor-pointer">
-                {t("FOOTER.FIRST_LINKS.link2")}
-              </li>
-              <li className="cursor-pointer">
-                {t("FOOTER.FIRST_LINKS.link3")}
+                <a href="#places">{t("FOOTER.FIRST_LINKS.link3")}</a>
               </li>
             </ul>
           </div>
@@ -44,20 +42,48 @@ export default function Footer() {
                 {t("FOOTER.SECOND_LINKS.title")}
               </li>
 
-              <li className="cursor-pointer">
-                {t("FOOTER.SECOND_LINKS.link1")}
+              <li className="cursor-pointer mt-1">
+                <a
+                  href="https://www.instagram.com/bahar_webdev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-instagram mr-2 text-2xl"></i>{" "}
+                  {t("FOOTER.SECOND_LINKS.link1")}
+                </a>
               </li>
 
               <li className="cursor-pointer">
-                {t("FOOTER.SECOND_LINKS.link2")}
+                <a
+                  href="https://www.linkedin.com/in/bahar-haidari-24b550254"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-linkedin mr-2 text-2xl"></i>{" "}
+                  {t("FOOTER.SECOND_LINKS.link2")}
+                </a>
               </li>
 
               <li className="cursor-pointer">
-                {t("FOOTER.SECOND_LINKS.link3")}
+                <a
+                  href="https://www.twitter.com/bahar_h1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-x-twitter mr-2 text-2xl"></i>{" "}
+                  {t("FOOTER.SECOND_LINKS.link3")}
+                </a>
               </li>
 
               <li className="cursor-pointer">
-                {t("FOOTER.SECOND_LINKS.link4")}
+                <a
+                  href="https://github.com/BaharHaidari"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-github mr-2 text-2xl"></i>{" "}
+                  {t("FOOTER.SECOND_LINKS.link4")}
+                </a>
               </li>
             </ul>
           </div>

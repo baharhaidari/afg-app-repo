@@ -30,78 +30,345 @@
   "PLACES": {
     "title": "POPULAR PLACES",
     "tagline": "Unveiling the Splendors of Iconic Destinations",
+
     "POPULAR_PLACES": [
       {
+        "id": 1,
         "title": "Herat",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
         "img": "/src/assets/pangshir.jpg",
+
         "details": {
-          "title": "Herat",
-          "Info": "test"
-        }
-      },
-      {
-        "title": "Bamian",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "/src/assets/band.jpg",
-        "details": {
-          "title": "Bamian",
-          "Info": "test"
-        }
-      },
-      {
-        "title": "Pangshir",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "/src/assets/afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg",
-        "details": {
-          "title": "Pangshir",
-          "Info": "test"
-        }
-      },
-      {
-        "title": "Paqman",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "/src/assets/95860002_2221576591330917_319843641847709696_n.jpg",
-        "details": {
-          "title": "Paqman",
-          "Info": "test"
-        }
-      },
-      {
-        "title": "Mazar-e-sharif",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "/src/assets/pangshir.jpg",
-        "details": {
-          "title": "Mazar-e-sharif",
-          "Info": "test"
+          "cityName": "HERAT",
+
+          "cityInfo": {
+            "title1": "Area",
+            "area": "Norht",
+            "title2": "Population",
+            "population": "4.1 Million",
+            "title3": "Downtown",
+            "downtown": "Herat",
+            "title4": "Accent",
+            "accent": "Persian"
+          },
+
+          "discoverBtn": "DISCOVER",
+          "title": "HERAT POPULAR PLACES",
+          "tagline": "Explore the Places",
+
+          "PLACE": [
+            {
+              "title": "Arg",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "Castle",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "test",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            }
+          ]
         }
       },
 
       {
+        "id": 2,
+        "title": "Bamian",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
+        "img": "/src/assets/band.jpg",
+
+        "details": {
+          "cityName": "Bamian",
+
+          "cityInfo": {
+            "title1": "Area",
+            "area": "Norht",
+            "title2": "Population",
+            "population": "4.1 Million",
+            "title3": "Downtown",
+            "downtown": "Bamian",
+            "title4": "Accent",
+            "accent": "Persian"
+          },
+
+          "discoverBtn": "DISCOVER",
+          "title": "BAMIAN POPULAR PLACES",
+          "tagline": "Explore the Places",
+
+          "PLACE": [
+            {
+              "title": "Manar Ghor",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "Manar Ghor",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "Manar Ghor",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            }
+          ]
+        }
+      },
+
+      {
+        "id": 3,
+        "title": "Pangshir",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
+        "img": "/src/assets/afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg",
+
+        "details": {
+          "cityName": "PANGSHIR",
+
+          "cityInfo": {
+            "title1": "Area",
+            "area": "Norht",
+            "title2": "Population",
+            "population": "4.1 Million",
+            "title3": "Downtown",
+            "downtown": "Pangshir",
+            "title4": "Accent",
+            "accent": "Persian"
+          },
+
+          "discoverBtn": "DISCOVER",
+          "title": "PANGSHIR POPULAR PLACES",
+          "tagline": "Explore the Places",
+
+          "PLACE": [
+            {
+              "title": "visit",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "sea",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "test",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "title": "Paqman",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
+        "img": "/src/assets/95860002_2221576591330917_319843641847709696_n.jpg",
+
+        "details": {
+          "cityName": "PAQMAN",
+
+          "cityInfo": {
+            "title1": "Area",
+            "area": "Norht",
+            "title2": "Population",
+            "population": "4.1 Million",
+            "title3": "Downtown",
+            "downtown": "Paqman",
+            "title4": "Accent",
+            "accent": "Persian"
+          },
+
+          "discoverBtn": "DISCOVER",
+          "title": "PAQMAN POPULAR PLACES",
+          "tagline": "Explore the Places",
+
+          "PLACE": [
+            {
+              "title": "visit 3",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "sea",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "test",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "title": "Mazar-e-sharif",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
+        "img": "/src/assets/pangshir.jpg",
+
+        "details": {
+          "cityName": "MAZAR-E-SHARIF",
+
+          "cityInfo": {
+            "title1": "Area",
+            "area": "Norht",
+            "title2": "Population",
+            "population": "4.1 Million",
+            "title3": "Downtown",
+            "downtown": "Mazar-e-sharif",
+            "title4": "Accent",
+            "accent": "Persian"
+          },
+
+          "discoverBtn": "DISCOVER",
+          "title": "MAZAR-E-SHARIF POPULAR PLACES",
+          "tagline": "Explore the Places",
+
+          "PLACE": [
+            {
+              "title": "visit 4",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "sea",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "test",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            }
+          ]
+        }
+      },
+
+      {
+        "id": 6,
         "title": "Pangshir",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
         "img": "/src/assets/band.jpg",
+
         "details": {
-          "title": "Pangshir",
-          "Info": "test"
+          "cityName": "MAZAR-E-SHARIF",
+
+          "cityInfo": {
+            "title1": "Area",
+            "area": "Norht",
+            "title2": "Population",
+            "population": "4.1 Million",
+            "title3": "Downtown",
+            "downtown": "Mazar-e-sharif",
+            "title4": "Accent",
+            "accent": "Persian"
+          },
+
+          "discoverBtn": "DISCOVER",
+          "title": "MAZAR-E-SHARIF POPULAR PLACES",
+          "tagline": "Explore the Places",
+
+          "PLACE": [
+            {
+              "title": "visit 4",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "sea",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "test",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            }
+          ]
         }
       },
       {
+        "id": 7,
         "title": "Paqman",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
         "img": "/src/assets/afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg",
+
         "details": {
-          "title": "Paqman",
-          "Info": "test"
+          "cityName": "MAZAR-E-SHARIF",
+
+          "cityInfo": {
+            "title1": "Area",
+            "area": "Norht",
+            "title2": "Population",
+            "population": "4.1 Million",
+            "title3": "Downtown",
+            "downtown": "Mazar-e-sharif",
+            "title4": "Accent",
+            "accent": "Persian"
+          },
+
+          "discoverBtn": "DISCOVER",
+          "title": "MAZAR-E-SHARIF POPULAR PLACES",
+          "tagline": "Explore the Places",
+
+          "PLACE": [
+            {
+              "title": "visit 4",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "sea",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "test",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            }
+          ]
         }
       },
       {
+        "id": 8,
         "title": "Mazar-e-sharif",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
         "img": "/src/assets/95860002_2221576591330917_319843641847709696_n.jpg",
+
         "details": {
-          "title": "Mazar-e-sharif",
-          "Info": "test"
+          "cityName": "MAZAR-E-SHARIF",
+
+          "cityInfo": {
+            "title1": "Area",
+            "area": "Norht",
+            "title2": "Population",
+            "population": "4.1 Million",
+            "title3": "Downtown",
+            "downtown": "Mazar-e-sharif",
+            "title4": "Accent",
+            "accent": "Persian"
+          },
+
+          "discoverBtn": "DISCOVER",
+          "title": "MAZAR-E-SHARIF POPULAR PLACES",
+          "tagline": "Explore the Places",
+
+          "PLACE": [
+            {
+              "title": "visit 4",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "sea",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "title": "test",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            }
+          ]
         }
       }
     ]

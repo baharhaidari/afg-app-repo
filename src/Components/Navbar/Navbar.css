@@ -5,7 +5,6 @@
 }
 
 .logo {
-  /* font-family: "Caveat"; */
   font-family: "Salsa", sans-serif;
 }
 
@@ -19,5 +18,5 @@ select {
 
 .active {
   font-weight: 500;
-  color: #0ef;
+  color: rgb(18, 226, 241);
 }

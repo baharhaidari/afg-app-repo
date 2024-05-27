@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       { index: true, element: <MainLayout /> },
-      { path: "place", element: <PlaceDeatils /> },
+      { path: "place/:id", element: <PlaceDeatils /> },
     ],
   },
 ]);

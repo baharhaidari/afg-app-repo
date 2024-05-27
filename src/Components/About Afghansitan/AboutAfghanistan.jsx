@@ -4,6 +4,8 @@ import map1 from "../../assets/Afghanistan_on_the_globe_(Afro-Eurasia_centered).
 import map2 from "../../assets/istockphoto-165734957-612x612.jpg";
 import img3 from "../../assets/photo-1642917457648-de25f59aeaa7.avif";
 import { useState } from "react";
+import Carousel from "./Slider/Slider";
+// import Slider from "./Slider/Slider";
 
 export default function AboutAfghanistan() {
   const { t } = useTranslation();
@@ -31,7 +33,9 @@ export default function AboutAfghanistan() {
         <p className="mb-3">{t("ABOUT.desc3")}</p>
       </div>
 
-      <div className="flex flex-col gap-16 justify-center">
+      <Carousel />
+
+      {/* <div className="flex flex-col gap-20 justify-center">
         <ul className="flex justify-center items-center gap-40 bg-slate-200 p-3">
           <li
             onClick={() => handleClick("map")}
@@ -78,6 +82,11 @@ export default function AboutAfghanistan() {
                   corrupti dignissimos quos. Provident doloribus earum vero
                   facere, temporibus ab!
                 </p>
+
+                <button className="mt-9 text-2xl link">
+                  See on Google Earth{" "}
+                  <i className="fa-solid fa-arrow-right arrow__right ml-2"></i>
+                </button>
               </div>
 
               <img src={map2} alt="" className="map__afg shadow-2xl" />
@@ -131,7 +140,7 @@ export default function AboutAfghanistan() {
             </div>
           )}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

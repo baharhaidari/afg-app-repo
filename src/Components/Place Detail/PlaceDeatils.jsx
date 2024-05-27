@@ -1,61 +1,17 @@
 import Cards from "../Cards/Cards";
 import "./PlaceDeatils.css";
 import img from "../../assets/afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg";
+import { useParams } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function PlaceDeatils() {
-  const PLACE_INFO = [
-    {
-      parameter: "Area",
-      icon: "Afghanistan",
-    },
+  const { id } = useParams();
+  const { t } = useTranslation();
 
-    {
-      parameter: "Population",
-      icon: "4 million People",
-    },
+  const places = t("PLACES.POPULAR_PLACES", { returnObjects: true });
+  const place = places.find((item) => item.id === parseInt(id));
 
-    {
-      parameter: "Downtown",
-      icon: "Herat",
-    },
-
-    {
-      parameter: "Accent",
-      icon: "Persian",
-    },
-  ];
-
-  const POPULAR_PLACES_DEATILS = [
-    {
-      place: "Manar Ghor",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
-    },
-
-    {
-      place: "Bande Amir",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
-    },
-
-    {
-      place: "Ekhtiyaedin Castle",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
-    },
-
-    {
-      place: "Test 2",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
-    },
-
-    {
-      place: "Manar test",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
-    },
-
-    {
-      place: "Manar Ghor",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
-    },
-  ];
+  const test = place.details.title1;
 
   return (
     <section className="flex flex-col justify-center items-center gap-10 min-h-screen place__details__section">
@@ -63,36 +19,39 @@ export default function PlaceDeatils() {
         <div className="info__wrapper flex justify-between gap-24 py-6 px-10 text font-medium">
           <div>
             <span className="text-slate-500">
-              <i className="fa-solid fa-earth-americas"></i> Area
+              <i className="fa-solid fa-earth-americas"></i>
+              {place.details.cityInfo.title1}
             </span>
-
             <p>Afghanistan</p>
           </div>
 
           <div>
             <span className="text-slate-500">
-              <i className="fa-solid fa-user"></i> Population
+              <i className="fa-solid fa-user"></i>{" "}
+              {place.details.cityInfo.title2}
             </span>
             <p>4 million</p>
           </div>
 
           <div>
             <span className="text-slate-500">
-              <i className="fa-solid fa-map-pin"></i> Downtown
+              <i className="fa-solid fa-map-pin"></i>{" "}
+              {place.details.cityInfo.title3}
             </span>
             <p>Herat</p>
           </div>
 
           <div>
             <span className="text-slate-500">
-              <i className="fa-solid fa-globe"></i> Accent
+              <i className="fa-solid fa-globe"></i>{" "}
+              {place.details.cityInfo.title4}
             </span>
             <p>Persian</p>
           </div>
         </div>
 
         <div className="flex flex-col justify-center items-center">
-          <h1 className="textxl">HERAT</h1>
+          <h1 className="textxl">{place.details.cityName}</h1>
           <a
             href=""
             className="px-12 py-4 border-2 border-solid border-slate-300 rounded-sm text-2xl glass-btn"
@@ -105,13 +64,20 @@ export default function PlaceDeatils() {
       <div className="px-28 py-10 flex justify-center items-center flex-col">
         <div className="two alt-two">
           <h1 className="text-5xl contact__section__title">
-            HERAT POPULAR PLACES
-            <span className="text-2xl">Explore the places</span>
+            {place.details.title}
+            <span className="text-2xl">{place.details.tagline}</span>
           </h1>
         </div>
         <div className="cards__wrapper grid grid-cols-3 gap-16 py-20">
-          {POPULAR_PLACES_DEATILS.map((place, index) => {
-            return <Cards img={img} title={place.place} desc={place.desc} />;
+          {place.details.PLACE.map((place, index) => {
+            return (
+              <Cards
+                key={index}
+                img={place.img}
+                title={place.title}
+                desc={place.desc}
+              />
+            );
           })}
         </div>
       </div>

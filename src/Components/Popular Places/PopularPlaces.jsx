@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 import "./PopularPlaces.css";
-import img1 from "../../assets/pangshir.jpg";
-import img2 from "../../assets/band-e-amir-national.jpg";
 import PlacesSearch from "../Places Search/PlacesSearch";
 import Cards from "../Cards/Cards";
 import { useTranslation } from "react-i18next";
 
 export default function PopularPlaces() {
   const { t } = useTranslation();
-
   let data = t("PLACES.POPULAR_PLACES", { returnObjects: true });
 
   const [visiblePlaces, setVisiblePlaces] = useState(6);
@@ -37,6 +34,7 @@ export default function PopularPlaces() {
         {data.slice(0, visiblePlaces).map((place, index) => (
           <Cards
             key={index}
+            id={place.id}
             img={place.img}
             title={place.title}
             desc={place.desc}

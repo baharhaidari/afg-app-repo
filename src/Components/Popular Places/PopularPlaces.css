@@ -1,3 +1,7 @@
 .places__section__title {
   font-family: "Salsa", cursive;
 }
+
+.show__more {
+  transition: all 0.2s ease;
+}

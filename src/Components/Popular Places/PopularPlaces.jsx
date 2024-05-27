@@ -9,6 +9,12 @@ export default function PopularPlaces() {
   let data = t("PLACES.POPULAR_PLACES", { returnObjects: true });
 
   const [visiblePlaces, setVisiblePlaces] = useState(6);
+  const [searchQuery, setSearchQuery] = useState("");
+
+  // Filter places based on search query
+  const filteredPlaces = data.filter((place) =>
+    place.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
 
   const showMorePlaces = () => {
     setVisiblePlaces((prevVisiblePlaces) => prevVisiblePlaces + 6);
@@ -27,11 +33,14 @@ export default function PopularPlaces() {
       </div>
 
       <div className="test">
-        <PlacesSearch />
+        <PlacesSearch
+          setSearchQuery={setSearchQuery}
+          searchQuery={searchQuery}
+        />
       </div>
 
       <div className="cards__wrapper grid grid-cols-3 gap-16">
-        {data.slice(0, visiblePlaces).map((place, index) => (
+        {filteredPlaces.slice(0, visiblePlaces).map((place, index) => (
           <Cards
             key={index}
             id={place.id}
@@ -45,7 +54,7 @@ export default function PopularPlaces() {
       <div className="flex justify-center">
         {visiblePlaces < data.length && (
           <button
-            className="px-8 py-2 border-2 border-solid border-cyan-500 rounded-sm text-2xl bg-cyan-500 text-white"
+            className="show__more px-8 py-2 border-2 border-solid border-cyan-500 rounded-sm text-2xl bg-cyan-500 text-white shadow-md hover:shadow-lg"
             onClick={showMorePlaces}
           >
             More Places

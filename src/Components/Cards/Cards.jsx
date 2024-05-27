@@ -5,7 +5,7 @@ export default function Cards(props) {
   const id = props.id;
 
   return (
-    <div className="border-none shadow-2xl hover:shadow-xl">
+    <div className="border-none shadow-xl hover:shadow-lg places__card">
       <div className="img__wrapper">
         <img src={props.img} alt="popular places" />
       </div>

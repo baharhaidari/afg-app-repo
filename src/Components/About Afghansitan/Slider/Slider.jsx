@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./Slider.css";
-import img1 from "../../../assets/137268545_15295031738851n.jpg";
-import img2 from "../../../assets/band.jpg";
+import img1 from "../../../assets/afghanistan-location-map.webp";
+import img2 from "../../../assets/map3.png";
+import img3 from "../../../assets/location.gif";
 
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -21,7 +22,7 @@ const Carousel = () => {
     },
     {
       id: 3,
-      imgUrl: img1,
+      imgUrl: img3,
     },
     {
       id: 4,
@@ -34,7 +35,7 @@ const Carousel = () => {
       {slides.map((slide, index) => (
         <div
           key={slide.id}
-          className={`slide ${currentSlide === index ? "active" : ""}`}
+          className={`slide ${currentSlide === index ? "active" : ""} py-10`}
           style={{ backgroundImage: `url(${slide.imgUrl})` }}
         >
           {/* <h1 className="text-5xl bg-slate-200 w-fit mt-4 ml-4 py-3 px-6 rounded-xl text-slate-600">

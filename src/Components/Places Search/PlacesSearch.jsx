@@ -1,6 +1,10 @@
 import "./PlacesSearch.css";
 
-export default function PlacesSearch() {
+export default function PlacesSearch({ setSearchQuery, searchQuery }) {
+  const handleSearchChange = (event) => {
+    setSearchQuery(event.target.value);
+  };
+
   return (
     <div className="flex justify-start items-center gap-4 relative left-0">
       <label htmlFor="seacrh" className="">
@@ -13,6 +17,8 @@ export default function PlacesSearch() {
         type="text"
         name="search"
         id="seacrh"
+        onChange={handleSearchChange}
+        value={searchQuery}
       />
     </div>
   );

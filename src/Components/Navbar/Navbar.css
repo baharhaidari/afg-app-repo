@@ -2,6 +2,7 @@
   background: var(--primary-color);
   color: var(--hero-section-colors);
   z-index: 99;
+  position: relative;
 }
 
 .logo {
@@ -19,4 +20,120 @@ select {
 .active {
   font-weight: 500;
   color: rgb(18, 226, 241);
+}
+
+.menu__toggle {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 10px 20px;
+    width: 100%;
+    transition: all 2s ease;
+  }
+
+  .navbar .menu__toggle {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .nav-icon4 {
+    color: var(--text-color);
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-left: 1rem;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .navbar .menu.open {
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    /* min-height: 100vh; */
+    background-color: var(--primary-color);
+    animation: slideInFromRight 1s ease forwards;
+  }
+
+  .navbar .menu.open ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar .menu.open li {
+    padding: 10px 0;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .menu__toggle {
+    display: inline-block;
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    position: relative;
+  }
+
+  .menu__toggle span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+
+  .menu__toggle span:nth-child(1) {
+    top: 0;
+    transform-origin: top;
+  }
+
+  .menu__toggle span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .menu__toggle span:nth-child(3) {
+    bottom: 0;
+    transform-origin: bottom;
+  }
+
+  .nav-icon4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #nav-icon4.open span:nth-child(1) {
+    transform: rotate(45deg) translate(7.5px, 7.5px);
+  }
+
+  #nav-icon4.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+  }
+
+  #nav-icon4.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  .lang-menu {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .navbar {
+    padding: 5px 45px;
+  }
+
+  #navbar li {
+    padding: 0 0 0 3rem;
+  }
 }

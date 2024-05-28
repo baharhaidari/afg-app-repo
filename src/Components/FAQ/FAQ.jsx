@@ -14,13 +14,15 @@ const Accordion = () => {
 
   return (
     <section
-      className="flex flex-col justify-center min-h-screen px-28 py-24 gap-16"
+      className="flex flex-col justify-center min-h-screen  px-4 sm:px-7 lg:px-28 py-24 gap-16"
       id="faq"
     >
       <div className="two alt-two flex justify-start items-center flex-col">
-        <h1 className="text-5xl places__section__title">
+        <h1 className="text-4xl sm:text-4xl lg:text-5xl places__section__title">
           FREQUENTLY ASKED QUESTIONS
-          <span className="text-2xl">Find Answers to Common Inquiries</span>
+          <span className="text-xs sm:text-sm lg:text-2xl">
+            Find Answers to Common Inquiries
+          </span>
         </h1>
       </div>
 

@@ -21,6 +21,17 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
+  font-size: 100%;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 90%;
+  }
 }
 
 [data-theme="dark"] {

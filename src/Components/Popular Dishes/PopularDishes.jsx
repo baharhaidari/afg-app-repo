@@ -66,13 +66,15 @@ export default function PopularDishes() {
   return (
     <>
       <section
-        className="flex flex-col justify-center items-center min-h-screen px-28 py-24 gap-24"
+        className="flex flex-col justify-center items-center min-h-screen px-4 sm:px-7 lg:px-28 py-24 gap-24"
         id="dishes"
       >
         <div className="two alt-two dishes__section__title">
-          <h1 className="text-5xl">
+          <h1 className="text-4xl sm:text-4xl lg:text-5xl">
             {t("DISHES.title")}
-            <span className="text-2xl">{t("DISHES.tagline")}</span>
+            <span className="text-xs sm:text-sm lg:text-2xl">
+              {t("DISHES.tagline")}
+            </span>
           </h1>
         </div>
 

@@ -6,9 +6,9 @@ export default function Footer() {
 
   return (
     <section>
-      <footer className="flex items-center justify-center flex-col px-28 py-8">
-        <div className="flex">
-          <div className="flex-1 p-10">
+      <footer className="lg:flex items-center justify-center lg:flex-col px-3 lg:px-28 py-8">
+        <div className="lg:flex">
+          <div className="flex-1 p-6 lg:p-10">
             <ul>
               <li className="text-3xl mb-3 cursor-pointer logo">
                 AfghanWander
@@ -19,7 +19,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="flex-1 p-10">
+          <div className="flex-1 p-6 lg:p-10">
             <ul>
               <li className="text-2xl font-semibold">
                 {t("FOOTER.FIRST_LINKS.title")}
@@ -36,7 +36,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="flex-1 p-10">
+          <div className="flex-1 p-6 lg:p-10">
             <ul>
               <li className="text-2xl font-semibold">
                 {t("FOOTER.SECOND_LINKS.title")}
@@ -89,7 +89,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <p className="text-2xl">{t("FOOTER.copyright")}</p>
+        <div className="flex items-center justify-center mt-3 sm:mt-3 lg:mt-0">
+          <p className="text-2xl ">{t("FOOTER.copyright")}</p>
+        </div>
       </footer>
     </section>
   );

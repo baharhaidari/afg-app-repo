@@ -22,13 +22,15 @@ export default function PopularPlaces() {
 
   return (
     <section
-      className="places__section flex flex-col justify-center min-h-screen px-28 py-24 gap-12"
+      className="places__section flex flex-col justify-center min-h-screen px-4 sm:px-7 lg:px-28 py-24 gap-12"
       id="places"
     >
       <div className="two alt-two flex justify-start items-center flex-col">
-        <h1 className="text-5xl places__section__title">
+        <h1 className="text-4xl sm:text-4xl lg:text-5xl places__section__title">
           {t("PLACES.title")}
-          <span className="text-2xl">{t("PLACES.tagline")}</span>
+          <span className="text-xs sm:text-sm lg:text-2xl">
+            {t("PLACES.tagline")}
+          </span>
         </h1>
       </div>
 
@@ -39,7 +41,7 @@ export default function PopularPlaces() {
         />
       </div>
 
-      <div className="cards__wrapper grid grid-cols-3 gap-16">
+      <div className="cards__wrapper grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
         {filteredPlaces.slice(0, visiblePlaces).map((place, index) => (
           <Cards
             key={index}

@@ -18,11 +18,16 @@ export default function Nationalities() {
 
   return (
     <>
-      <section className="min-h-screen px-28 py-24 gap-36" id="nationalities">
+      <section
+        className="min-h-screen  px-4 sm:px-7 lg:px-28 py-24 gap-36"
+        id="nationalities"
+      >
         <div className="two alt-two dishes__section__title flex flex-col justify-center items-center ">
-          <h1 className="text-5xl">
+          <h1 className="text-4xl sm:text-4xl lg:text-5xl">
             {t("NATIONS.title")}
-            <span className="text-2xl">{t("NATIONS.tagline")}</span>
+            <span className="text-xs sm:text-sm lg:text-2xl">
+              {t("NATIONS.tagline")}
+            </span>
           </h1>
         </div>
 
@@ -30,7 +35,25 @@ export default function Nationalities() {
           <Swiper
             modules={[Pagination, Scrollbar]}
             spaceBetween={50}
-            slidesPerView={3}
+            slidesPerView={3} // Show one slide per view on small and extra small devices
+            breakpoints={{
+              "@0.00": {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+              "@0.75": {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              "@1.00": {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              "@1.50": {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+            }}
             pagination={{ clickable: true }}
           >
             {nationalities.map((nation, index) => {

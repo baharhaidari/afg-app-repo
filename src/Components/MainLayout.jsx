@@ -1,3 +1,4 @@
+import { ToastContainer } from "react-toastify";
 import AboutAfghanistan from "./About Afghansitan/AboutAfghanistan";
 import ContactUs from "./Contact/ContactUs";
 import Accordion from "./FAQ/FAQ";
@@ -11,6 +12,7 @@ import PopularPlaces from "./Popular Places/PopularPlaces";
 export default function MainLayout() {
   return (
     <>
+      <ToastContainer />
       <Home />
       <AboutAfghanistan />
       <PopularPlaces />

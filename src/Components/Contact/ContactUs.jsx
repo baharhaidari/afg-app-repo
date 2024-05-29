@@ -1,6 +1,8 @@
 import "./ContactUs.css";
 import { useTranslation } from "react-i18next";
 import emailjs from "emailjs-com";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function ContactUs() {
   const { t } = useTranslation();
@@ -13,24 +15,23 @@ export default function ContactUs() {
         "service_gpyveci",
         "template_lxg0uh8",
         {
-          name: "name",
-          last_name: "last_name",
-          email: "email",
-          email_subjsct: "email_subjsct",
-          message: "message",
+          name: e.target.name.value,
+          last_name: e.target.last_name.value,
+          email: e.target.email.value,
+          email_subjsct: e.target.email_subjsct.value,
+          message: e.target.message.value,
         },
         "n01DueOdBya9LfMGt"
       )
       .then((response) => {
         console.log("Email sent successfully!", response.text);
-        // Add any success message or actions here
+        toast.success("Email sent successfully!");
       })
       .catch((error) => {
         console.error("Error sending email:", error);
-        // Add any error handling or actions here
+        toast.error("Error sending email!");
       });
 
-    // Reset the form fields after submission if desired
     e.target.reset();
   }
 

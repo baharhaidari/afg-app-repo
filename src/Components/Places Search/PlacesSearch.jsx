@@ -7,7 +7,7 @@ export default function PlacesSearch({ setSearchQuery, searchQuery }) {
 
   return (
     <div className="flex justify-start items-center gap-4 relative left-0">
-      <label htmlFor="seacrh" className="text-base lg:text-2xl">
+      <label htmlFor="seacrh" className="text-base lg:text-xl">
         Search by Province Name:
       </label>
 

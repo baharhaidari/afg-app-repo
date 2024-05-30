@@ -30,3 +30,12 @@
 .cards__desc {
   color: var(--card-desc-color);
 }
+
+.fa-arrow-right {
+  margin-left: 0.2rem;
+  transition: all 0.3s ease;
+}
+
+.details__link:hover .fa-arrow-right {
+  margin-left: 0.5rem;
+}

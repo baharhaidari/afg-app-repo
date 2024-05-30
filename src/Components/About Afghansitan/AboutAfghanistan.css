@@ -44,8 +44,8 @@ h1 span {
 }
 
 .alt-two h1:before {
-  left: 40%;
-  margin-left: -30px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .afg__flag,

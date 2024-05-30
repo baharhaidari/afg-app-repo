@@ -6,6 +6,7 @@ import PlaceDeatils from "./Components/Place Detail/PlaceDeatils";
 import { I18nextProvider, useTranslation } from "react-i18next";
 import i18next from "i18next";
 import { useEffect } from "react";
+import PlaceDeatilsDetails from "./Components/Place Details Images/PlacesDetailsDetails's";
 
 const router = createBrowserRouter([
   {
@@ -13,7 +14,12 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       { index: true, element: <MainLayout /> },
-      { path: "place/:id", element: <PlaceDeatils /> },
+      {
+        path: "place/:id",
+        element: <PlaceDeatils />,
+      },
+
+      { path: "placesDetails", element: <PlaceDeatilsDetails /> },
     ],
   },
 ]);

@@ -1,0 +1,17 @@
+/* .detail__img {
+  position: relative;
+} */
+
+.detail__img:hover + .detail__icon {
+  opacity: 1;
+}
+
+.detail__icon {
+  position: absolute;
+  top: 85%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  font-size: 2rem;
+}

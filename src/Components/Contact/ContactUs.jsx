@@ -3,9 +3,11 @@ import { useTranslation } from "react-i18next";
 import emailjs from "emailjs-com";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useRef } from "react";
 
 export default function ContactUs() {
   const { t } = useTranslation();
+  const submitBtnRef = useRef();
 
   function sendEmail(e) {
     e.preventDefault();
@@ -34,6 +36,10 @@ export default function ContactUs() {
 
     e.target.reset();
   }
+
+  const handleSubmitBtnClick = () => {
+    submitBtnRef.current.click();
+  };
 
   return (
     <section
@@ -98,11 +104,14 @@ export default function ContactUs() {
         </div>
 
         <div className="submit w-full flex justify-center">
-          <input
-            type="submit"
-            value={t("CONTACT.submitBtn")}
-            className="border-2 border-slate-500 border-solid rounded-md py-3 px-10 "
-          />
+          <input type="submit" style={{ display: "none" }} ref={submitBtnRef} />
+
+          <button
+            className="border-2  hover:bg-slate-900 border-solid rounded-md py-3 px-10 text-xl font-bold bg-slate-800 text-white border-white"
+            onClick={handleSubmitBtnClick}
+          >
+            {t("CONTACT.submitBtn")}
+          </button>
         </div>
       </form>
     </section>

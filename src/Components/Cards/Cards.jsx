@@ -12,8 +12,8 @@ export default function Cards(props) {
       <div className="p-3">
         <h2 className="text-2xl font-semibold">{props.title}</h2>
         <p className="my-3 cards__desc">{props.desc}</p>
-        <NavLink to={`/place/${id}`}>
-          <span className="text-sky-500 text-1xl tracking-wider">
+        <NavLink to={props.to}>
+          <span className="text-sky-500 text-1xl tracking-wider details__link">
             See More <i className="fa-solid fa-arrow-right"></i>
           </span>
         </NavLink>

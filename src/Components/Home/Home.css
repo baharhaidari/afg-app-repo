@@ -90,6 +90,7 @@
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  transition: all 0.3s ease;
 }
 
 .glass-btn::before {

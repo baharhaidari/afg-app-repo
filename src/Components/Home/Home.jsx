@@ -15,7 +15,7 @@ export default function Home() {
       <p className="text-justify px-3 sm:px-7 md:px-10 lg:px-32 home__paragraph font-medium ">
         {t("HOME.desc")}
       </p>
-      <button className="px-10 py-3 border-2 border-solid border-slate-300 rounded-sm text-2xl glass-btn">
+      <button className="px-10 py-3 border-2 border-solid border-slate-300 rounded-sm text-2xl glass-btn hover:scale-105">
         <a href="#places">EXPLORE NOW</a>
       </button>
     </section>

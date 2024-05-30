@@ -49,6 +49,7 @@ export default function PopularPlaces() {
             img={place.img}
             title={place.title}
             desc={place.desc}
+            to={`/place/${place.id}`}
           />
         ))}
       </div>

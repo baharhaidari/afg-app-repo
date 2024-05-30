@@ -23,6 +23,28 @@ export default function AboutAfghanistan() {
         <p className="mb-3">{t("ABOUT.desc1")}</p>
         <p className="mb-3">{t("ABOUT.desc2")}</p>
         <p className="mb-3">{t("ABOUT.desc3")}</p>
+
+        <div className="mt-6">
+          <p className="tracking-wide font-semibold">
+            <span className="text-cyan-700">Population:</span> 33,000,000
+          </p>
+
+          <p className="tracking-wide font-semibold">
+            <span className="text-cyan-700">َArea:</span> 612,000,000
+          </p>
+
+          <p className="tracking-wide font-semibold">
+            <span className="text-cyan-700">Capital City:</span> Kabul
+          </p>
+
+          <p className="tracking-wide font-semibold">
+            <span className="text-cyan-700">Official Language:</span> Pashto
+          </p>
+
+          <p className="tracking-wide font-semibold">
+            <span className="text-cyan-700">Currency:</span> AFN
+          </p>
+        </div>
       </div>
 
       <Carousel />

@@ -19,8 +19,8 @@ export default function PlaceDeatils() {
 
   return (
     <section className="flex flex-col justify-center items-center gap-10 min-h-screen place__details__section">
-      <div className="place__detail__header w-full px-40 py-24 min-h-screen">
-        <div className="info__wrapper flex justify-between gap-24 py-6 px-10 text font-medium">
+      <div className="place__detail__header w-full px-40 flex flex-col justify-center items-center min-h-screen">
+        <div className="info__wrapper flex justify-between gap-24 py-6 px-10 text font-medium w-full">
           <div>
             <span className="text-slate-500">
               <i className="fa-solid fa-earth-americas"></i>{" "}
@@ -66,10 +66,17 @@ export default function PlaceDeatils() {
       </div>
 
       <div className="px-28 py-10 flex flex-col" id="popularPlaces">
-        <div className="two alt-two">
+        {/* <div className="two alt-two">
           <h1 className="text-5xl contact__section__title">
             {place.details.title}
             <span className="text-2xl">{place.details.tagline}</span>
+          </h1>
+        </div> */}
+
+        <div class="nine">
+          <h1>
+            {place.details.title}
+            <span>{place.details.tagline}</span>
           </h1>
         </div>
 

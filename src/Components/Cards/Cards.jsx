@@ -9,11 +9,13 @@ export default function Cards(props) {
       <div className="img__wrapper">
         <img src={props.img} alt="popular places" />
       </div>
-      <div className="p-3">
-        {/* <h2 className="text-2xl font-semibold tracking-wide">{props.title}</h2> */}
-        <p className="my-3 cards__desc">{props.desc}</p>
+      <div className="p-4">
+        <h2 className="text-2xl font-semibold tracking-wide mb-3">
+          {props.title}
+        </h2>
+        <p className="mb-5 cards__desc">{props.desc}</p>
         <NavLink to={props.to}>
-          <span className="text-sky-500 text-1xl tracking-wider details__link">
+          <span className="text-sky-500 text-lg tracking-wider details__link">
             See More <i className="fa-solid fa-arrow-right"></i>
           </span>
         </NavLink>

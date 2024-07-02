@@ -43,32 +43,29 @@ export default function ContactUs() {
 
   return (
     <section
-      className="flex flex-col justify-center items-center gap-10 px-4 sm:px-7 lg:px-72 py-10 lg:py-24 min-h-screen contact__section"
+      className="flex flex-col justify-center items-center gap-10 py-10 lg:py-24 "
       id="contact"
     >
-      <div className="two alt-two">
-        <h1 className="text-4xl sm:text-4xl lg:text-5xl contact__section__title">
+      <div class="nine">
+        <h1>
           {t("CONTACT.title")}
-          <span className="text-xs sm:text-sm lg:text-2xl">
-            {" "}
-            {t("CONTACT.tagline")}
-          </span>
+          <span>{t("CONTACT.tagline")}</span>
         </h1>
       </div>
 
-      <form onSubmit={sendEmail}>
+      <form onSubmit={sendEmail} className="px-4 sm:px-7 lg:px-44 ">
         <div className="input-box">
           <input
             type="text"
             placeholder={t("CONTACT.PLACEHOLDERS.name")}
-            className="border-2 border-slate-500 border-solid rounded-md p-3"
+            className="border-2 border-slate-500 border-solid rounded-md p-3 bg-transparent"
             name="name"
             required
           />
           <input
             type="text"
             placeholder={t("CONTACT.PLACEHOLDERS.fName")}
-            className="border-2 border-slate-500 border-solid rounded-md p-3"
+            className="border-2 border-slate-500 border-solid rounded-md p-3 bg-transparent"
             name="last_name"
             required
           />
@@ -78,7 +75,7 @@ export default function ContactUs() {
           <input
             type="text"
             placeholder={t("CONTACT.PLACEHOLDERS.email")}
-            className="border-2 border-slate-500 border-solid rounded-md p-3"
+            className="border-2 border-slate-500 border-solid rounded-md p-3 bg-transparent"
             name="email"
             required
           />
@@ -87,7 +84,7 @@ export default function ContactUs() {
             name="email_subjsct"
             id=""
             placeholder={t("CONTACT.PLACEHOLDERS.subject")}
-            className="border-2 border-slate-500 border-solid rounded-md p-3"
+            className="border-2 border-slate-500 border-solid rounded-md p-3 bg-transparent"
             required
           />
         </div>
@@ -98,7 +95,7 @@ export default function ContactUs() {
             id=""
             rows={10}
             placeholder={t("CONTACT.PLACEHOLDERS.message")}
-            className="border-2 border-slate-500 border-solid rounded-md p-3 w-full"
+            className="border-2 border-slate-500 border-solid rounded-md p-3 w-full bg-transparent"
             required
           ></textarea>
         </div>
@@ -107,7 +104,7 @@ export default function ContactUs() {
           <input type="submit" style={{ display: "none" }} ref={submitBtnRef} />
 
           <button
-            className="border-2  hover:bg-slate-900 border-solid rounded-md py-3 px-10 text-xl font-bold bg-slate-800 text-white border-white"
+            className="px-12 py-3 border-2 border-solid border-cyan-500 rounded-sm text-xl bg-cyan-500 text-white shadow-md hover:shadow-lg mt-3"
             onClick={handleSubmitBtnClick}
           >
             {t("CONTACT.submitBtn")}

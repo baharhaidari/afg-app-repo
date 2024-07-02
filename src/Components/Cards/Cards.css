@@ -27,6 +27,10 @@
   transform: scale(1.05);
 }
 
+.places__card h2 {
+  font-family: "Salsa";
+}
+
 .cards__desc {
   color: var(--card-desc-color);
 }

@@ -19,7 +19,7 @@ export default function PlaceDeatils() {
 
   return (
     <section className="flex flex-col justify-center items-center gap-10 min-h-screen place__details__section">
-      <div className="place__detail__header w-full px-40 py-24 ">
+      <div className="place__detail__header w-full px-40 py-24 min-h-screen">
         <div className="info__wrapper flex justify-between gap-24 py-6 px-10 text font-medium">
           <div>
             <span className="text-slate-500">
@@ -56,12 +56,12 @@ export default function PlaceDeatils() {
 
         <div className="flex flex-col justify-center items-center">
           <h1 className="textxl text-white">{place.details.cityName}</h1>
-          {/* <a
+          <a
             href="#popularPlaces"
             className="px-12 py-4 border-2 border-solid border-slate-300 rounded-sm text-2xl glass-btn"
           >
             DISCOVER
-          </a> */}
+          </a>
         </div>
       </div>
 
@@ -90,7 +90,7 @@ export default function PlaceDeatils() {
                 img={place.img}
                 title={place.title}
                 desc={place.desc}
-                to={`/placesDetails`}
+                to={`/placesDetails/${place.id}`}
               />
             );
           })}

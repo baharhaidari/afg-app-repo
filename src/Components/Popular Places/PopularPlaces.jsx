@@ -22,15 +22,13 @@ export default function PopularPlaces() {
 
   return (
     <section
-      className="places__section flex flex-col justify-center min-h-screen px-4 sm:px-7 lg:px-28 py-24 gap-12"
+      className="places__section flex flex-col justify-center py-24 gap-12"
       id="places"
     >
-      <div className="two alt-two flex justify-start items-center flex-col">
-        <h1 className="text-4xl sm:text-4xl lg:text-5xl places__section__title">
+      <div class="nine">
+        <h1>
           {t("PLACES.title")}
-          <span className="text-xs sm:text-sm lg:text-2xl">
-            {t("PLACES.tagline")}
-          </span>
+          <span>{t("PLACES.tagline")}</span>
         </h1>
       </div>
 

@@ -28,6 +28,55 @@ i:hover {
   cursor: pointer;
 }
 
+main {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1%;
+}
+
+.nine {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20%;
+}
+
+.nine h1 {
+  text-align: center;
+  font-size: 45px;
+  text-transform: capitalize;
+  color: #2d2d32;
+  letter-spacing: 1px;
+  font-family: "Jost", serif;
+  font-weight: 500;
+}
+
+.nine h1 span {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #444;
+  word-spacing: 1px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  /* grid-template-rows: 27px 0; */
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.nine h1 span:after,
+.nine h1 span:before {
+  content: " ";
+  display: block;
+  border-bottom: 2px solid #0ef;
+  border-top: 2px solid #0ef;
+  height: 5px;
+  background-color: transparent;
+}
+
 @media screen and (max-width: 768px) {
   body {
     font-size: 90%;
@@ -37,7 +86,7 @@ i:hover {
 [data-theme="dark"] {
   --primary-color: #03aed2;
   --text-color: rgb(213, 213, 227);
-  --bg-color: #191d23;
+  --bg-color: rgb(12, 19, 34);
   --hero-section-colors: #fff;
   --tagline-color: rgba(237, 224, 224, 0.521);
   --card-desc-color: rgb(190, 198, 207);
@@ -46,7 +95,7 @@ i:hover {
 
 :root {
   --primary-color: #03aed2;
-  --text-color: rgb(0, 0, 0);
+  --text-color: rgb(15 23 42);
   --bg-color: #fff;
   --hero-section-colors: #fff;
   --tagline-color: rgba(0, 0, 0, 0.4);

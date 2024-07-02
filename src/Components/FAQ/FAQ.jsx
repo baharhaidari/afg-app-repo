@@ -13,20 +13,21 @@ const Accordion = () => {
   };
 
   return (
-    <section
-      className="flex flex-col justify-center min-h-screen  px-4 sm:px-7 lg:px-28 py-24 gap-16"
-      id="faq"
-    >
-      <div className="two alt-two flex justify-start items-center flex-col">
+    <section className="flex flex-col justify-center py-24 gap-16" id="faq">
+      {/* <div className="two alt-two flex justify-start items-center flex-col">
         <h1 className="text-4xl sm:text-4xl lg:text-5xl places__section__title">
+          <span className="text-xs sm:text-sm lg:text-2xl"></span>
+        </h1>
+      </div> */}
+
+      <div class="nine">
+        <h1>
           FREQUENTLY ASKED QUESTIONS
-          <span className="text-xs sm:text-sm lg:text-2xl">
-            Find Answers to Common Inquiries
-          </span>
+          <span> Find Answers to Common Inquiries</span>
         </h1>
       </div>
 
-      <main>
+      <div>
         <div className="accordion flex flex-col gap-4">
           {FAQs.map((faq, index) => {
             return (
@@ -68,7 +69,7 @@ const Accordion = () => {
             );
           })}
         </div>
-      </main>
+      </div>
     </section>
   );
 };

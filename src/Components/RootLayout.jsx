@@ -7,10 +7,10 @@ import i18next from "i18next";
 function RootLayout() {
   return (
     <>
-      <Navbar />
-      <main>
-        <Outlet />
-      </main>
+      {/* <Navbar /> */}
+      {/* <main> */}
+      <Outlet />
+      {/* </main> */}
       <Footer />
     </>
   );

@@ -34,12 +34,12 @@
     "POPULAR_PLACES": [
       {
         "id": 1,
-        "title": "Herat",
+        "title": "Kabul",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
         "img": "/src/assets/pangshir.jpg",
 
         "details": {
-          "cityName": "HERAT",
+          "cityName": "Kabul",
 
           "cityInfo": {
             "title1": "Area",
@@ -58,17 +58,49 @@
 
           "PLACE": [
             {
-              "title": "Arg",
+              "id": 1,
+              "title": "Babur Garden",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
+              "images": [
+                "/src/assets/band.jpg",
+                "/src/assets/afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg",
+                "/src/assets/pangshir.jpg"
+              ]
+            },
+
+            {
+              "id": 2,
+              "title": "Kabul Museum",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             },
 
             {
-              "title": "Castle",
+              "id": 3,
+              "title": "Darul Aman",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             },
 
             {
-              "title": "test",
+              "id": 4,
+              "title": "Arg Kabul",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "id": 5,
+              "title": "Paghman Gardens",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "id": 6,
+              "title": "Bala Hissar",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "id": 7,
+              "title": "Shah-Do-Shamshira Mosque",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             }
           ]
@@ -77,12 +109,12 @@
 
       {
         "id": 2,
-        "title": "Bamian",
+        "title": "Bamyan",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
         "img": "/src/assets/band.jpg",
 
         "details": {
-          "cityName": "Bamian",
+          "cityName": "Bamyan",
 
           "cityInfo": {
             "title1": "Area",
@@ -101,17 +133,26 @@
 
           "PLACE": [
             {
-              "title": "Manar Ghor",
+              "id": 1,
+              "title": "Band-e-Amir",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             },
 
             {
-              "title": "Manar Ghor",
+              "id": 2,
+              "title": "Buddhas",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             },
 
             {
-              "title": "Manar Ghor",
+              "id": 3,
+              "title": "Shahr-e-Zohak",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "id": 4,
+              "title": "Shahr-e-Gholghola",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             }
           ]
@@ -120,12 +161,12 @@
 
       {
         "id": 3,
-        "title": "Pangshir",
+        "title": "Herat",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
         "img": "/src/assets/afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg",
 
         "details": {
-          "cityName": "PANGSHIR",
+          "cityName": "Herat",
 
           "cityInfo": {
             "title1": "Area",
@@ -144,72 +185,50 @@
 
           "PLACE": [
             {
-              "title": "visit",
+              "id": 1,
+              "title": "Arg Herat",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
+              "images": [
+                "/src/assets/band.jpg",
+                "/src/assets/afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg"
+              ]
+            },
+
+            {
+              "id": 2,
+              "title": "Jame Mosque",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             },
 
             {
-              "title": "sea",
+              "id": 3,
+              "title": "Minar ha",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             },
 
             {
-              "title": "test",
+              "id": 4,
+              "title": "Mussala Complex",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "id": 5,
+              "title": "Tomb of Khwaja Abdullah Ansari",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             }
           ]
         }
       },
-      {
-        "id": 4,
-        "title": "Paqman",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
-        "img": "/src/assets/95860002_2221576591330917_319843641847709696_n.jpg",
 
-        "details": {
-          "cityName": "PAQMAN",
-
-          "cityInfo": {
-            "title1": "Area",
-            "area": "Norht",
-            "title2": "Population",
-            "population": "4.1 Million",
-            "title3": "Downtown",
-            "downtown": "Paqman",
-            "title4": "Accent",
-            "accent": "Persian"
-          },
-
-          "discoverBtn": "DISCOVER",
-          "title": "PAQMAN POPULAR PLACES",
-          "tagline": "Explore the Places",
-
-          "PLACE": [
-            {
-              "title": "visit 3",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
-            },
-
-            {
-              "title": "sea",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
-            },
-
-            {
-              "title": "test",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
-            }
-          ]
-        }
-      },
       {
         "id": 5,
-        "title": "Mazar-e-sharif",
+        "title": "Balkh",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
         "img": "/src/assets/pangshir.jpg",
 
         "details": {
-          "cityName": "MAZAR-E-SHARIF",
+          "cityName": "Balkh",
 
           "cityInfo": {
             "title1": "Area",
@@ -223,22 +242,31 @@
           },
 
           "discoverBtn": "DISCOVER",
-          "title": "MAZAR-E-SHARIF POPULAR PLACES",
+          "title": "Balkh POPULAR PLACES",
           "tagline": "Explore the Places",
 
           "PLACE": [
             {
-              "title": "visit 4",
+              "id": 1,
+              "title": "Abi Mosque",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             },
 
             {
-              "title": "sea",
+              "id": 2,
+              "title": "Sakhi Shrine",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             },
 
             {
-              "title": "test",
+              "id": 3,
+              "title": "Haji Pyada Mosque",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "id": 4,
+              "title": "Takht-e-Rustam",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             }
           ]
@@ -247,12 +275,12 @@
 
       {
         "id": 6,
-        "title": "Pangshir",
+        "title": "Kandahar",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
         "img": "/src/assets/band.jpg",
 
         "details": {
-          "cityName": "MAZAR-E-SHARIF",
+          "cityName": "Kandahar",
 
           "cityInfo": {
             "title1": "Area",
@@ -266,35 +294,39 @@
           },
 
           "discoverBtn": "DISCOVER",
-          "title": "MAZAR-E-SHARIF POPULAR PLACES",
+          "title": "Kandahar POPULAR PLACES",
           "tagline": "Explore the Places",
 
           "PLACE": [
             {
-              "title": "visit 4",
+              "id": 1,
+              "title": "Shrine of Prophet Mohammad",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             },
 
             {
-              "title": "sea",
+              "id": 2,
+              "title": "Arg Kandahar",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             },
 
             {
-              "title": "test",
+              "id": 3,
+              "title": "Chill-Zine",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             }
           ]
         }
       },
+
       {
         "id": 7,
-        "title": "Paqman",
+        "title": "Badakhshan",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
         "img": "/src/assets/afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg",
 
         "details": {
-          "cityName": "MAZAR-E-SHARIF",
+          "cityName": "Badakhshan",
 
           "cityInfo": {
             "title1": "Area",
@@ -308,35 +340,51 @@
           },
 
           "discoverBtn": "DISCOVER",
-          "title": "MAZAR-E-SHARIF POPULAR PLACES",
+          "title": "Badakhshan POPULAR PLACES",
           "tagline": "Explore the Places",
 
           "PLACE": [
             {
-              "title": "visit 4",
+              "id": 1,
+              "title": "Wakhan Valley",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             },
 
             {
-              "title": "sea",
+              "id": 2,
+              "title": "Pamir Mountains",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             },
 
             {
-              "title": "test",
+              "id": 3,
+              "title": "Darunta Dam",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "id": 4,
+              "title": "Jalal-Abad Gardens",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+            },
+
+            {
+              "id": 5,
+              "title": "Khyber Pass",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             }
           ]
         }
       },
+
       {
         "id": 8,
-        "title": "Mazar-e-sharif",
+        "title": "Panjshir",
         "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
         "img": "/src/assets/95860002_2221576591330917_319843641847709696_n.jpg",
 
         "details": {
-          "cityName": "MAZAR-E-SHARIF",
+          "cityName": "Panjshir",
 
           "cityInfo": {
             "title1": "Area",
@@ -350,22 +398,53 @@
           },
 
           "discoverBtn": "DISCOVER",
-          "title": "MAZAR-E-SHARIF POPULAR PLACES",
+          "title": "Panjshir POPULAR PLACES",
           "tagline": "Explore the Places",
 
           "PLACE": [
             {
-              "title": "visit 4",
+              "id": 1,
+              "title": "Tomb of Ahmad Shah Masoud",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             },
 
             {
-              "title": "sea",
+              "id": 2,
+              "title": "Panjshir River",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
-            },
+            }
+          ]
+        }
+      },
 
+      {
+        "id": 9,
+        "title": "Logar",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facilis sapiente distinctio obcaecati labore reiciendis sequi totam? Pariatur.",
+        "img": "/src/assets/95860002_2221576591330917_319843641847709696_n.jpg",
+
+        "details": {
+          "cityName": "Logar",
+
+          "cityInfo": {
+            "title1": "Area",
+            "area": "Norht",
+            "title2": "Population",
+            "population": "4.1 Million",
+            "title3": "Downtown",
+            "downtown": "Mazar-e-sharif",
+            "title4": "Accent",
+            "accent": "Persian"
+          },
+
+          "discoverBtn": "DISCOVER",
+          "title": "Logar POPULAR PLACES",
+          "tagline": "Explore the Places",
+
+          "PLACE": [
             {
-              "title": "test",
+              "id": 1,
+              "title": "Mes Aynac Archaeological Site",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
             }
           ]

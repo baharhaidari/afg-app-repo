@@ -19,19 +19,17 @@ export default function Nationalities() {
   return (
     <>
       <section
-        className="min-h-screen  px-4 sm:px-7 lg:px-28 py-24 gap-36"
+        className="py-24 gap-36 flex justify-center flex-col"
         id="nationalities"
       >
-        <div className="two alt-two dishes__section__title flex flex-col justify-center items-center ">
-          <h1 className="text-4xl sm:text-4xl lg:text-5xl">
+        <div className="nine">
+          <h1>
             {t("NATIONS.title")}
-            <span className="text-xs sm:text-sm lg:text-2xl">
-              {t("NATIONS.tagline")}
-            </span>
+            <span>{t("NATIONS.tagline")}</span>
           </h1>
         </div>
 
-        <div className="slider__container px-5 pt-24">
+        <div className="">
           <Swiper
             modules={[Pagination, Scrollbar]}
             spaceBetween={50}

@@ -13,6 +13,6 @@ p {
 }
 
 footer {
-  background-color: var(--primary-color);
-  color: var(--hero-section-colors);
+  /* background-color: var(--primary-color); */
+  /* color: var(--hero-section-colors); */
 }

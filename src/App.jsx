@@ -18,8 +18,7 @@ const router = createBrowserRouter([
         path: "place/:id",
         element: <PlaceDeatils />,
       },
-
-      { path: "placesDetails", element: <PlaceDeatilsDetails /> },
+      { path: "/placesDetails/:id", element: <PlaceDeatilsDetails /> },
     ],
   },
 ]);
@@ -34,7 +33,7 @@ function App() {
   }, [i18n.language]);
 
   return (
-    <div className="App">
+    <div className="App text-slate-700">
       <I18nextProvider i18n={i18next}>
         <RouterProvider router={router} />
       </I18nextProvider>

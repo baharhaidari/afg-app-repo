@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import LanguageSelector from "../Language Selector/LanguageSelector";
 
 export default function Navbar() {
-  const [activeLink, setActiveLink] = useState();
+  const [activeLink, setActiveLink] = useState("home");
   const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
 

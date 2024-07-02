@@ -5,7 +5,7 @@ import kichiri from "../../assets/kichiri.jpg";
 import qaboli from "../../assets/غذاهای-مشهور-و-مزه-دار-افغانستان-را-بشن-100032.jpg";
 import ashak from "../../assets/maxresdefault.jpg";
 import manto from "../../assets/غذاهای-مشهور-و-مزه-دار-افغانستان-را-بشن-100039-1.jpg";
-import boolani from "../../assets/غذاهای-مشهور-و-مزه-دار-افغانستان-را-بشن-100033.jpg";
+// import boolani from "../../assets/غذاهای-مشهور-و-مزه-دار-افغانستان-را-بشن-100033.jpg";
 
 import { useTranslation } from "react-i18next";
 
@@ -35,7 +35,7 @@ export default function PopularDishes() {
 
     {
       name: "Boolani",
-      img: boolani,
+      img: manto,
     },
 
     {
@@ -60,25 +60,23 @@ export default function PopularDishes() {
 
     {
       name: "Boolani",
-      img: boolani,
+      img: ashak,
     },
   ];
   return (
     <>
       <section
-        className="flex flex-col justify-center items-center min-h-screen px-4 sm:px-7 lg:px-28 py-24 gap-24"
+        className="flex flex-col justify-center items-center py-24 gap-24"
         id="dishes"
       >
-        <div className="two alt-two dishes__section__title">
-          <h1 className="text-4xl sm:text-4xl lg:text-5xl">
+        <div class="nine">
+          <h1>
             {t("DISHES.title")}
-            <span className="text-xs sm:text-sm lg:text-2xl">
-              {t("DISHES.tagline")}
-            </span>
+            <span>{t("DISHES.tagline")}</span>
           </h1>
         </div>
 
-        <div className="flex justify-center items-center gap-8 flex-wrap">
+        <div className="flex justify-center items-center gap-5 flex-wrap">
           {FOODS.map((food, index) => {
             return (
               <div key={index} className="relative shadow-2xl bg-slate-200 ">

@@ -7,18 +7,28 @@ import { I18nextProvider, useTranslation } from "react-i18next";
 import i18next from "i18next";
 import { useEffect } from "react";
 import PlaceDeatilsDetails from "./Components/Place Details Images/PlacesDetailsDetails's";
+import PlacesRootLayout from "./Components/PlacesRootLayout";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
+
     children: [
       { index: true, element: <MainLayout /> },
       {
-        path: "place/:id",
-        element: <PlaceDeatils />,
+        path: "place",
+        element: <PlacesRootLayout />,
+        children: [
+          {
+            path: ":placeId",
+            element: <PlaceDeatils />,
+            children: [
+              { path: "details/:detailId", element: <PlaceDeatilsDetails /> },
+            ],
+          },
+        ],
       },
-      { path: "/placesDetails/:id", element: <PlaceDeatilsDetails /> },
     ],
   },
 ]);

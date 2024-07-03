@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./PopularPlaces.css";
 import PlacesSearch from "../Places Search/PlacesSearch";
 import Cards from "../Cards/Cards";

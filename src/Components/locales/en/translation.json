@@ -53,7 +53,7 @@
           },
 
           "discoverBtn": "DISCOVER",
-          "title": "HERAT POPULAR PLACES",
+          "title": "KABUL POPULAR PLACES",
           "tagline": "Explore the Places",
 
           "PLACE": [
@@ -62,22 +62,37 @@
               "title": "Babur Garden",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
               "images": [
-                "/src/assets/band.jpg",
-                "/src/assets/afghanistan-band-e-amir-national-park-6vj9t3pstoxmr4sy.jpg",
-                "/src/assets/pangshir.jpg"
+                "/src/assets/babur garden/babur-1.jpg",
+                "/src/assets/babur garden/babur-2.jpg",
+                "/src/assets/babur garden/babur-3.jpg",
+                "/src/assets/babur garden/babur-4.jpg",
+                "/src/assets/babur garden/babur-5.jpg",
+                "/src/assets/babur garden/babur-6.png"
               ]
             },
 
             {
               "id": 2,
               "title": "Kabul Museum",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
+              "images": [
+                "/src/assets/kabul museum/kabul-museum-1.jpg",
+                "/src/assets/kabul museum/kabul-museum-2.jpg",
+                "/src/assets/kabul museum/kabul-museum-3.jpg",
+                "/src/assets/kabul museum/kabul-museum-4.jpg",
+                "/src/assets/kabul museum/kabul-museum-5.jpg"
+              ]
             },
 
             {
               "id": 3,
               "title": "Darul Aman",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
+              "images": [
+                "/src/assets/darul aman/darul-aman-1.jpg",
+                "/src/assets/darul aman/darul-aman-2.jpg",
+                "/src/assets/darul aman/darul-aman-3.jpeg"
+              ]
             },
 
             {
@@ -89,19 +104,33 @@
             {
               "id": 5,
               "title": "Paghman Gardens",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
+              "images": [
+                "/src/assets/paghman/paghman-1.jpg",
+                "/src/assets/paghman/paghman-2.jpg",
+                "/src/assets/paghman/paghman-3.jpg",
+                "/src/assets/paghman/paghman-4.jpg"
+              ]
             },
 
             {
               "id": 6,
               "title": "Bala Hissar",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
+              "images": ["/src/assets/bala hissar/balahissar-2.jpg"]
             },
 
             {
               "id": 7,
               "title": "Shah-Do-Shamshira Mosque",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
+              "images": [
+                "/src/assets/shah do shamshira/shah-doShamshira-1.webp",
+                "/src/assets/shah do shamshira/shah-doShamshira-2.jpg",
+                "/src/assets/shah do shamshira/shah-doShamshira-3.jpg",
+                "/src/assets/shah do shamshira/shah-doShamshira-4.webp",
+                "/src/assets/shah do shamshira/shah-doShamshira-5.jpg"
+              ]
             }
           ]
         }
@@ -135,25 +164,51 @@
             {
               "id": 1,
               "title": "Band-e-Amir",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
+              "images": [
+                "/src/assets/bande e amir/band-1.jpg",
+                "/src/assets/bande e amir/band-2.jpg",
+                "/src/assets/bande e amir/band-3.jpg",
+                "/src/assets/bande e amir/band-4.jpg",
+                "/src/assets/bande e amir/band-5.jpg",
+                "/src/assets/bande e amir/band-6.jpg"
+              ]
             },
 
             {
               "id": 2,
               "title": "Buddhas",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
+              "images": [
+                "/src/assets/buddhas/buddhas-2.jpg",
+                "/src/assets/buddhas/buddhas-3.jpg",
+                "/src/assets/buddhas/buddhas-4.avif"
+              ]
             },
 
             {
               "id": 3,
               "title": "Shahr-e-Zohak",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
+              "images": [
+                "/src/assets/shahr e zohak/shahr-e-zohak-1.jpg",
+                "/src/assets/shahr e zohak/shahr-e-zohak-2.jpg",
+                "/src/assets/shahr e zohak/shahr-e-zohak-3.jpg",
+                "/src/assets/shahr e zohak/shahr-e-zohak-4.jpg",
+                "/src/assets/shahr e zohak/shahr-e-zohak-5.jpg"
+              ]
             },
 
             {
               "id": 4,
               "title": "Shahr-e-Gholghola",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam."
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias amet magnam placeat. Magnam distinctio ratione ipsam dignissimos aliquid praesentium suscipit assumenda mollitia! Rem, quidem placeat adipisci libero amet ratione quibusdam.",
+              "images": [
+                "/src/assets/shahr e gholghola/Shahr-e-Gholghola-1.jpg",
+                "/src/assets/shahr e gholghola/Shahr-e-Gholghola-2.webp",
+                "/src/assets/shahr e gholghola/Shahr-e-Gholghola-3.jpg",
+                "/src/assets/shahr e gholghola/Shahr-e-Gholghola-4.jpg"
+              ]
             }
           ]
         }
@@ -533,10 +588,6 @@
       {
         "title": "What are some cultural norms and customs in Afghanistan?",
         "desc": "Afghanistan has a rich cultural heritage, and it's important to respect the local customs and traditions. Some cultural norms include showing hospitality and respect to guests, especially by offering tea or food. It's customary to greet others with a handshake and use formal titles when addressing people. Modest dress is expected, particularly for women, who should cover their heads and wear loose-fitting clothing. It's also important to be mindful of Islamic customs, such as avoiding public displays of affection and consuming alcohol in public. Remember to ask for permission before taking photographs, especially of individuals."
-      },
-      {
-        "title": "What are some safety considerations for travelers in Afghanistan?",
-        "desc": "Traveling to Afghanistan requires careful planning and consideration for safety. Due to ongoing security concerns, it is essential to stay informed about the current situation and follow travel advisories from your home country. It is recommended to travel with a reputable tour operator or a trusted local guide who is familiar with the region. Register with your embassy or consulate upon arrival and share your travel itinerary with someone you trust. Respect local customs and traditions, and avoid political gatherings or demonstrations. Keep a low profile, be vigilant in public places, and follow the guidance of local authorities and security personnel."
       }
     ]
   },

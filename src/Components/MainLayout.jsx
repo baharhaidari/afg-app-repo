@@ -7,6 +7,8 @@ import Nationalities from "./Nationalities/Nationalities";
 import PopularDishes from "./Popular Dishes/PopularDishes";
 import PopularPlaces from "./Popular Places/PopularPlaces";
 import Navbar from "./Navbar/Navbar";
+import PlaceDeatils from "./Place Detail/PlaceDeatils";
+import PlaceDeatilsDetails from "./Place Details Images/PlacesDetailsDetails's";
 
 export default function MainLayout() {
   return (
@@ -16,6 +18,7 @@ export default function MainLayout() {
       <Home />
       <main>
         <AboutAfghanistan />
+        <PlaceDeatilsDetails />
         <PopularPlaces />
         <PopularDishes />
         <Nationalities />

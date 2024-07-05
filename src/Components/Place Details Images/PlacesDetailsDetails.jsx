@@ -67,10 +67,10 @@
 //   );
 // }
 
-import React, { useEffect } from "react";
-import { useParams, useNavigate } from "react-router-dom";
-import { useTranslation } from "react-i18next";
-import "./PlacesDetailsDetails's.css";
+import React, { useEffect } from "react"
+import { useParams, useNavigate } from "react-router-dom"
+import { useTranslation } from "react-i18next"
+import "./PlacesDetailsDetails's.css"
 
 export default function PlaceDeatilsDetails() {
   // const { placeId, detailId } = useParams();
@@ -102,7 +102,7 @@ export default function PlaceDeatilsDetails() {
   // useEffect(() => {
   //   console.log("PlaceDeatils mounted");
   // }, []);
-
+  console.log("i am getting logged")
   return (
     <section className="flex flex-col justify-center min-h-screen px-4 sm:px-7 lg:px-28 py-24 gap-12">
       <div className="two alt-two flex justify-start items-center flex-col">
@@ -141,5 +141,5 @@ export default function PlaceDeatilsDetails() {
         ))} */}
       </div>
     </section>
-  );
+  )
 }

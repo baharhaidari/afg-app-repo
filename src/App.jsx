@@ -1,19 +1,18 @@
-import "./App.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import RootLayout from "./Components/RootLayout";
-import MainLayout from "./Components/MainLayout";
-import PlaceDeatils from "./Components/Place Detail/PlaceDeatils";
-import { I18nextProvider, useTranslation } from "react-i18next";
-import i18next from "i18next";
-import { useEffect } from "react";
-import PlaceDeatilsDetails from "./Components/Place Details Images/PlacesDetailsDetails's";
-import PlacesRootLayout from "./Components/PlacesRootLayout";
+import "./App.css"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import RootLayout from "./Components/RootLayout"
+import MainLayout from "./Components/MainLayout"
+import PlaceDeatils from "./Components/Place Detail/PlaceDeatils"
+import { I18nextProvider, useTranslation } from "react-i18next"
+import i18next from "i18next"
+import { useEffect } from "react"
+import PlaceDeatilsDetails from "./Components/Place Details Images/PlacesDetailsDetails"
+import PlacesRootLayout from "./Components/PlacesRootLayout"
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
-
     children: [
       { index: true, element: <MainLayout /> },
       {
@@ -31,16 +30,16 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+])
 
 function App() {
-  const { i18n } = useTranslation();
+  const { i18n } = useTranslation()
 
   useEffect(() => {
-    const htmlElement = document.documentElement;
-    htmlElement.lang = i18n.language;
-    htmlElement.dir = i18n.language === "es" ? "rtl" : "ltr";
-  }, [i18n.language]);
+    const htmlElement = document.documentElement
+    htmlElement.lang = i18n.language
+    htmlElement.dir = i18n.language === "es" ? "rtl" : "ltr"
+  }, [i18n.language])
 
   return (
     <div className="App text-slate-700">
@@ -48,7 +47,7 @@ function App() {
         <RouterProvider router={router} />
       </I18nextProvider>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
